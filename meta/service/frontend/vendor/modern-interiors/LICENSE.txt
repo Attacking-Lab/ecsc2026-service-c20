@@ -1,0 +1,24 @@
+MODERN INTERIORS FULL VERSION LICENSE
+-
+YOU CAN:
+-Edit and use the asset in any commercial  or non commercial project 
+-Use the asset in any commercial  or non commercial project
+-
+YOU CAN'T:
+- Resell or distribute the asset to others
+- Edit and resell the asset to others
+-
+- Credits required (limezu.itch.io)
+
+---
+
+Attribution: "Modern Interiors" character sprites and room tiles by LimeZu
+(vendored under `character-pieces/` and `room/`).
+Source: https://limezu.itch.io/moderninteriors
+
+This license permits editing and commercial/non-commercial use of the assets
+as part of a larger work (such as this repository), but not resale or
+redistribution of the assets themselves as standalone assets. Written
+permission covering inclusion and redistribution of these assets via this
+specific repository (including forks/clones and any organiser-mandated repo
+transfer) is archived at `assets/PERMISSION.md` in the repository root.

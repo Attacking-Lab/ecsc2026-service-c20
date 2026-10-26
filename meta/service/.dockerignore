@@ -1,0 +1,15 @@
+**/__pycache__/
+**/*.py[cod]
+**/.ruff_cache/
+**/.venv/
+**/node_modules/
+frontend/tests/
+frontend/tools/
+frontend/justfile
+frontend/package.json
+frontend/package-lock.json
+frontend/web/seal-fixtures.json
+frontend/web/seal-selftest.html
+frontend/web/seal-selftest.js
+compose.dev.yaml
+justfile

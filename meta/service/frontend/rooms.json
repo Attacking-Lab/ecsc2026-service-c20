@@ -1,0 +1,10012 @@
+{
+ "lobby": {
+  "tile": 16,
+  "width": 20,
+  "height": 14,
+  "assetBase": "/room",
+  "tiles": [
+   {
+    "tx": 0,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 14,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 15,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 16,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 17,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 18,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 19,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 14,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 15,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 16,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 17,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 18,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 0,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 14,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 16,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 18,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 19,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 14,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 16,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 17,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 19,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 14,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 15,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 16,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 17,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 18,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 19,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 14,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 15,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 16,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 17,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 18,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 19,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 18,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 19,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 18,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 19,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 15,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 16,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 17,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 18,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 19,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 2,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 3,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 14,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 15,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 16,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 17,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 18,
+    "ty": 11,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 19,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 12,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/2",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 2,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 3,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 13,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 14,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 15,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 16,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 17,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 18,
+    "ty": 12,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 19,
+    "ty": 12,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/5",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/4",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/4",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/5",
+    "solid": true
+   },
+   {
+    "tx": 16,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/5",
+    "solid": true
+   },
+   {
+    "tx": 17,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/5",
+    "solid": true
+   },
+   {
+    "tx": 18,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/5",
+    "solid": true
+   },
+   {
+    "tx": 19,
+    "ty": 13,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/5",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 2,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 3,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 11,
+    "ty": 13,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 12,
+    "ty": 13,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 13,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 9,
+    "ty": 13,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 8,
+    "ty": 13,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 13,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 1,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 1,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 1,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 2,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 2,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 2,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 2,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 2,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 1,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 1,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 3,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 7,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 3,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 3,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 3,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 4,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 3,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 17,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 18,
+    "ty": 1,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/4/15",
+    "solid": true
+   },
+   {
+    "tx": 17,
+    "ty": 1,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/3/15",
+    "solid": true
+   },
+   {
+    "tx": 18,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/4/14",
+    "solid": true
+   },
+   {
+    "tx": 17,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/3/14",
+    "solid": true
+   },
+   {
+    "tx": 17,
+    "ty": 2,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/3/16"
+   },
+   {
+    "tx": 18,
+    "ty": 2,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/4/16"
+   },
+   {
+    "tx": 15,
+    "ty": 1,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/14/10",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 2,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/12/14"
+   },
+   {
+    "tx": 16,
+    "ty": 2,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/13/14"
+   },
+   {
+    "tx": 16,
+    "ty": 1,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/15/10",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/12/12",
+    "solid": true
+   },
+   {
+    "tx": 16,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/13/12",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/0/14",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 1,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/0/15",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 12,
+    "url": "/tile/19_Hospital_16x16.png/1/4",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/19_Hospital_16x16.png/3/0",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/19_Hospital_16x16.png/2/0",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 1,
+    "z": 12,
+    "url": "/tile/19_Hospital_16x16.png/2/1",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 1,
+    "z": 12,
+    "url": "/tile/19_Hospital_16x16.png/3/1",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/14_Basement_16x16.png/5/43",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/14_Basement_16x16.png/6/43",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 1,
+    "z": 12,
+    "url": "/tile/14_Basement_16x16.png/5/44",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 1,
+    "z": 12,
+    "url": "/tile/14_Basement_16x16.png/6/44",
+    "solid": true
+   },
+   {
+    "tx": 19,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/2",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 3,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/5/10",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/5/11",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/6/11",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/7/11",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/6/11",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/7/11",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/8/11",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 3,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/8/10",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 2,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/8/9",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/5/9"
+   },
+   {
+    "tx": 8,
+    "ty": 3,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/6/10",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 3,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/6/9",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 3,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/7/9",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 3,
+    "z": 9,
+    "url": "/tile/19_Hospital_16x16.png/6/10",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 9,
+    "z": 5,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/17"
+   },
+   {
+    "tx": 4,
+    "ty": 10,
+    "z": 5,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/17"
+   },
+   {
+    "tx": 5,
+    "ty": 10,
+    "z": 5,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/17"
+   },
+   {
+    "tx": 4,
+    "ty": 9,
+    "z": 6,
+    "url": "/tile/11_Halloween_16x16.png/6/13",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 10,
+    "z": 6,
+    "url": "/tile/11_Halloween_16x16.png/8/14"
+   },
+   {
+    "tx": 5,
+    "ty": 9,
+    "z": 6,
+    "url": "/tile/21_Clothing_Store.png/9/2",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 10,
+    "z": 6,
+    "url": "/tile/21_Clothing_Store.png/9/3",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 9,
+    "z": 7,
+    "url": "/tile/11_Halloween_16x16.png/7/13",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 10,
+    "z": 7,
+    "url": "/tile/11_Halloween_16x16.png/7/14",
+    "solid": false
+   },
+   {
+    "tx": 3,
+    "ty": 9,
+    "z": 6,
+    "url": "/tile/11_Halloween_16x16.png/6/13",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 10,
+    "z": 6,
+    "url": "/tile/11_Halloween_16x16.png/8/14"
+   },
+   {
+    "tx": 3,
+    "ty": 9,
+    "z": 5,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/17"
+   },
+   {
+    "tx": 3,
+    "ty": 10,
+    "z": 5,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/17"
+   },
+   {
+    "tx": 2,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 2,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 2,
+    "ty": 9,
+    "z": 5,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/17"
+   },
+   {
+    "tx": 2,
+    "ty": 10,
+    "z": 5,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/17"
+   },
+   {
+    "tx": 2,
+    "ty": 10,
+    "z": 6,
+    "url": "/tile/21_Clothing_Store.png/9/3",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 9,
+    "z": 6,
+    "url": "/tile/21_Clothing_Store.png/9/2",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 10,
+    "z": 7,
+    "url": "/tile/11_Halloween_16x16.png/5/14"
+   },
+   {
+    "tx": 2,
+    "ty": 9,
+    "z": 7,
+    "url": "/tile/11_Halloween_16x16.png/5/13",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 17,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 14,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 15,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 16,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 17,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 16,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 15,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 15,
+    "ty": 10,
+    "z": 4,
+    "url": "/tile/20_Japanese_interiors.png/4/8",
+    "solid": true
+   },
+   {
+    "tx": 16,
+    "ty": 10,
+    "z": 4,
+    "url": "/tile/20_Japanese_interiors.png/5/8",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 4,
+    "url": "/tile/20_Japanese_interiors.png/12/21",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 4,
+    "url": "/tile/20_Japanese_interiors.png/12/20",
+    "solid": true
+   },
+   {
+    "tx": 16,
+    "ty": 9,
+    "z": 4,
+    "url": "/tile/20_Japanese_interiors.png/5/7",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 9,
+    "z": 4,
+    "url": "/tile/20_Japanese_interiors.png/4/7",
+    "solid": true
+   },
+   {
+    "tx": 17,
+    "ty": 10,
+    "z": 4,
+    "url": "/tile/20_Japanese_interiors.png/13/21",
+    "solid": true
+   },
+   {
+    "tx": 17,
+    "ty": 9,
+    "z": 4,
+    "url": "/tile/20_Japanese_interiors.png/13/20",
+    "solid": true
+   },
+   {
+    "tx": 16,
+    "ty": 9,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/14/7",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 9,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/14/7",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 3,
+    "url": "/tile/20_Japanese_interiors.png/0/2"
+   },
+   {
+    "tx": 15,
+    "ty": 9,
+    "z": 3,
+    "url": "/tile/20_Japanese_interiors.png/1/2"
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 3,
+    "url": "/tile/20_Japanese_interiors.png/0/3"
+   },
+   {
+    "tx": 15,
+    "ty": 10,
+    "z": 3,
+    "url": "/tile/20_Japanese_interiors.png/1/3"
+   },
+   {
+    "tx": 16,
+    "ty": 9,
+    "z": 3,
+    "url": "/tile/20_Japanese_interiors.png/0/2"
+   },
+   {
+    "tx": 17,
+    "ty": 9,
+    "z": 3,
+    "url": "/tile/20_Japanese_interiors.png/1/2"
+   },
+   {
+    "tx": 16,
+    "ty": 10,
+    "z": 3,
+    "url": "/tile/20_Japanese_interiors.png/0/3"
+   },
+   {
+    "tx": 17,
+    "ty": 10,
+    "z": 3,
+    "url": "/tile/20_Japanese_interiors.png/1/3"
+   },
+   {
+    "tx": 2,
+    "ty": 5,
+    "z": 3,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 2,
+    "ty": 4,
+    "z": 3,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 4,
+    "ty": 4,
+    "z": 3,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3",
+    "solid": false
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 3,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 3,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 3,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 3,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 4,
+    "url": "/tile/18_Jail_16x16.png/3/33"
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 4,
+    "url": "/tile/18_Jail_16x16.png/3/34"
+   },
+   {
+    "tx": 3,
+    "ty": 4,
+    "z": 5,
+    "url": "/tile/1_Generic_16x16.png/1/8",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 4,
+    "z": 5,
+    "url": "/tile/1_Generic_16x16.png/2/8",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 5,
+    "z": 3,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3",
+    "solid": false
+   },
+   {
+    "tx": 4,
+    "ty": 5,
+    "z": 3,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3",
+    "solid": false
+   },
+   {
+    "tx": 2,
+    "ty": 4,
+    "z": 5,
+    "url": "/tile/1_Generic_16x16.png/0/8",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 5,
+    "url": "/tile/1_Generic_16x16.png/3/8",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 5,
+    "url": "/tile/1_Generic_16x16.png/3/10",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 5,
+    "z": 5,
+    "url": "/tile/1_Generic_16x16.png/2/10",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 5,
+    "z": 5,
+    "url": "/tile/1_Generic_16x16.png/1/10",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 5,
+    "z": 5,
+    "url": "/tile/1_Generic_16x16.png/0/10",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 4,
+    "z": 4,
+    "url": "/tile/18_Jail_16x16.png/4/35"
+   },
+   {
+    "tx": 2,
+    "ty": 5,
+    "z": 4,
+    "url": "/tile/18_Jail_16x16.png/4/36"
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 6,
+    "url": "/tile/10_Birthday_party_16x16.png/7/1",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 4,
+    "z": 6,
+    "url": "/tile/10_Birthday_party_16x16.png/6/1",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/0",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2"
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2"
+   },
+   {
+    "tx": 5,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2"
+   },
+   {
+    "tx": 10,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2"
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2"
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2"
+   },
+   {
+    "tx": 16,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2"
+   },
+   {
+    "tx": 17,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2"
+   },
+   {
+    "tx": 18,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/2"
+   },
+   {
+    "tx": 19,
+    "ty": 0,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/0",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/1",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 4,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 5,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 8,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 10,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 11,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 12,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 13,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 16,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 17,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 18,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/3"
+   },
+   {
+    "tx": 19,
+    "ty": 1,
+    "z": 3,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/1",
+    "solid": true
+   },
+   {
+    "tx": 18,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/16"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/5/1"
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/3/1"
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/5/2"
+   },
+   {
+    "tx": 10,
+    "ty": 7,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/5/2"
+   },
+   {
+    "tx": 10,
+    "ty": 8,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/5/2"
+   },
+   {
+    "tx": 10,
+    "ty": 9,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/5/2"
+   },
+   {
+    "tx": 10,
+    "ty": 10,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/5/2"
+   },
+   {
+    "tx": 10,
+    "ty": 11,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/5/2"
+   },
+   {
+    "tx": 10,
+    "ty": 12,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/5/2"
+   },
+   {
+    "tx": 10,
+    "ty": 13,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/5/2"
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/3/2"
+   },
+   {
+    "tx": 9,
+    "ty": 7,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/3/2"
+   },
+   {
+    "tx": 9,
+    "ty": 8,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/3/2"
+   },
+   {
+    "tx": 9,
+    "ty": 9,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/3/2"
+   },
+   {
+    "tx": 9,
+    "ty": 10,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/3/2"
+   },
+   {
+    "tx": 9,
+    "ty": 11,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/3/2"
+   },
+   {
+    "tx": 9,
+    "ty": 12,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/3/2"
+   },
+   {
+    "tx": 9,
+    "ty": 13,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/3/2"
+   },
+   {
+    "tx": 7,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/13_Conference_Hall_16x16.png/13/7",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 8,
+    "url": "/tile/13_Conference_Hall_16x16.png/13/8",
+    "solid": true
+   },
+   {
+    "tx": 17,
+    "ty": 4,
+    "z": 4,
+    "url": "/tile/2_LivingRoom_16x16.png/3/29",
+    "solid": true
+   },
+   {
+    "tx": 16,
+    "ty": 4,
+    "z": 4,
+    "url": "/tile/2_LivingRoom_16x16.png/2/29",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 4,
+    "z": 4,
+    "url": "/tile/2_LivingRoom_16x16.png/1/29",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 3,
+    "z": 4,
+    "url": "/tile/2_LivingRoom_16x16.png/1/28",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 3,
+    "z": 4,
+    "url": "/tile/2_LivingRoom_16x16.png/2/28",
+    "solid": true
+   },
+   {
+    "tx": 16,
+    "ty": 3,
+    "z": 4,
+    "url": "/tile/2_LivingRoom_16x16.png/2/28",
+    "solid": true
+   },
+   {
+    "tx": 17,
+    "ty": 3,
+    "z": 4,
+    "url": "/tile/2_LivingRoom_16x16.png/3/28",
+    "solid": true
+   },
+   {
+    "tx": 17,
+    "ty": 5,
+    "z": 5,
+    "url": "/anim/animated_cat.png/1/0",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 9,
+    "z": 5,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/17"
+   },
+   {
+    "tx": 4,
+    "ty": 9,
+    "z": 8,
+    "url": "/tile/11_Halloween_16x16.png/13/21"
+   },
+   {
+    "tx": 17,
+    "ty": 4,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/14/32"
+   },
+   {
+    "tx": 17,
+    "ty": 3,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/14/31"
+   },
+   {
+    "tx": 16,
+    "ty": 5,
+    "z": 6,
+    "url": "/tile/2_LivingRoom_16x16.png/9/3"
+   },
+   {
+    "tx": 16,
+    "ty": 4,
+    "z": 6,
+    "url": "/tile/2_LivingRoom_16x16.png/9/1"
+   },
+   {
+    "tx": 14,
+    "ty": 5,
+    "z": 6,
+    "url": "/tile/2_LivingRoom_16x16.png/7/3"
+   },
+   {
+    "tx": 14,
+    "ty": 4,
+    "z": 6,
+    "url": "/tile/2_LivingRoom_16x16.png/7/1"
+   },
+   {
+    "tx": 16,
+    "ty": 5,
+    "z": 5,
+    "url": "/anim/animated_cat.png/0/0",
+    "solid": true
+   },
+   {
+    "tx": 18,
+    "ty": 5,
+    "z": 5,
+    "url": "/anim/animated_cat.png/2/0",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 4,
+    "z": 3,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3",
+    "solid": false
+   },
+   {
+    "tx": 12,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/22_Museum.png/13/17",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 2,
+    "z": 8,
+    "url": "/tile/22_Museum.png/14/18",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/9/0",
+    "solid": false
+   },
+   {
+    "tx": 5,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/8/0",
+    "solid": false
+   },
+   {
+    "tx": 3,
+    "ty": 4,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/0/3"
+   },
+   {
+    "tx": 4,
+    "ty": 4,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/1/3"
+   },
+   {
+    "tx": 3,
+    "ty": 3,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/0/2"
+   },
+   {
+    "tx": 4,
+    "ty": 3,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/1/2"
+   },
+   {
+    "tx": 3,
+    "ty": 9,
+    "z": 8,
+    "url": "/tile/11_Halloween_16x16.png/10/3"
+   },
+   {
+    "tx": 3,
+    "ty": 8,
+    "z": 8,
+    "url": "/tile/11_Halloween_16x16.png/10/2"
+   },
+   {
+    "tx": 3,
+    "ty": 9,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/1/4"
+   },
+   {
+    "tx": 15,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 15,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 15,
+    "ty": 4,
+    "z": 4,
+    "url": "/tile/2_LivingRoom_16x16.png/2/29",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 4,
+    "z": 6,
+    "url": "/tile/2_LivingRoom_16x16.png/8/1"
+   },
+   {
+    "tx": 15,
+    "ty": 5,
+    "z": 6,
+    "url": "/tile/2_LivingRoom_16x16.png/8/3"
+   },
+   {
+    "tx": 15,
+    "ty": 5,
+    "z": 7,
+    "url": "/tile/2_LivingRoom_16x16.png/2/10"
+   },
+   {
+    "tx": 15,
+    "ty": 4,
+    "z": 7,
+    "url": "/tile/2_LivingRoom_16x16.png/2/9"
+   }
+  ],
+  "furniture": [],
+  "spawn": {
+   "tx": 9.5,
+   "ty": 12
+  },
+  "npcs": [
+   {
+    "tx": 9.5,
+    "ty": 3,
+    "z": 8,
+    "dir": "down",
+    "anim": "idle",
+    "selection": {
+     "body": "Body_02",
+     "eyes": "Eyes_01",
+     "outfit": "Outfit_05_03",
+     "hairstyle": "Hairstyle_12_02",
+     "accessory": "__none__"
+    }
+   }
+  ]
+ },
+ "teahouse": {
+  "tile": 16,
+  "width": 16,
+  "height": 12,
+  "assetBase": "/room",
+  "tiles": [
+   {
+    "tx": 1,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 4,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 5,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 9,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 10,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 11,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 12,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 13,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 1,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/3"
+   },
+   {
+    "tx": 2,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 3,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 4,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 5,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 6,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 7,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 8,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 9,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 10,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 11,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 12,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 13,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 1,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 2,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 3,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 4,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 7,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 9,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 11,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 12,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 13,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 14,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 1,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/3"
+   },
+   {
+    "tx": 2,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 3,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 11,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 12,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 14,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/3"
+   },
+   {
+    "tx": 1,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 2,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 3,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 12,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 13,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 14,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 1,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/3"
+   },
+   {
+    "tx": 2,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 3,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 4,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 6,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 11,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 12,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 13,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 14,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/3"
+   },
+   {
+    "tx": 1,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 2,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 3,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 4,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 5,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 7,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 9,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 11,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 12,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 13,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 14,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 1,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/3"
+   },
+   {
+    "tx": 2,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 3,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 4,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 5,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 6,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 7,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 8,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 9,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 10,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 11,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 12,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 13,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/3"
+   },
+   {
+    "tx": 1,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 2,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 3,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 4,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 5,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 6,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 7,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 8,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 9,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 10,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 11,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 12,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 13,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 0,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/26"
+   },
+   {
+    "tx": 15,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/26"
+   },
+   {
+    "tx": 0,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/26"
+   },
+   {
+    "tx": 15,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/26"
+   },
+   {
+    "tx": 0,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/26"
+   },
+   {
+    "tx": 15,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/26"
+   },
+   {
+    "tx": 0,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/26"
+   },
+   {
+    "tx": 15,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/26"
+   },
+   {
+    "tx": 0,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/26"
+   },
+   {
+    "tx": 15,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/26"
+   },
+   {
+    "tx": 0,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/26"
+   },
+   {
+    "tx": 15,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/26"
+   },
+   {
+    "tx": 0,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/26"
+   },
+   {
+    "tx": 15,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/26"
+   },
+   {
+    "tx": 0,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/26"
+   },
+   {
+    "tx": 15,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/26"
+   },
+   {
+    "tx": 0,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/26"
+   },
+   {
+    "tx": 15,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/26"
+   },
+   {
+    "tx": 0,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/5"
+   },
+   {
+    "tx": 1,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 2,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 3,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 4,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 5,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 6,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 7,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 8,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 9,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 10,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 11,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 12,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 13,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 14,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 15,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/5"
+   },
+   {
+    "tx": 1,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/20_Japanese_interiors.png/6/7"
+   },
+   {
+    "tx": 1,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/20_Japanese_interiors.png/6/8"
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/20_Japanese_interiors.png/6/7"
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/20_Japanese_interiors.png/6/8"
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 8,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 10,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 6,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 8,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 6,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 10,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 4,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 5,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 7,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 6,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 8,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 9,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 8,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/0/8",
+    "solid": true,
+    "chair": {
+     "y": 4,
+     "dir": "left"
+    }
+   },
+   {
+    "tx": 7,
+    "ty": 7,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/0/8",
+    "solid": true,
+    "chair": {
+     "y": 4,
+     "dir": "up"
+    }
+   },
+   {
+    "tx": 5,
+    "ty": 7,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/0/8",
+    "solid": true,
+    "chair": {
+     "y": 4,
+     "dir": "up"
+    }
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/0/8",
+    "solid": true,
+    "chair": {
+     "y": 4,
+     "dir": "right"
+    }
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/0/8",
+    "solid": true,
+    "chair": {
+     "y": 4,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 7,
+    "ty": 4,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/0/8",
+    "solid": true,
+    "chair": {
+     "y": 4,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 8,
+    "ty": 4,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/0/8",
+    "solid": true,
+    "chair": {
+     "y": 4,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 8,
+    "ty": 7,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/0/8",
+    "solid": true,
+    "chair": {
+     "y": 4,
+     "dir": "up"
+    }
+   },
+   {
+    "tx": 10,
+    "ty": 7,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/0/8",
+    "solid": true,
+    "chair": {
+     "y": 4,
+     "dir": "up"
+    }
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/0/8",
+    "solid": true,
+    "chair": {
+     "y": 4,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 2,
+    "ty": 0,
+    "z": 13,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/5"
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 13,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/5"
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 13,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/5"
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 13,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/5"
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 13,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/5"
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 13,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/5"
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/0/2",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/1/2",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 1,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/0/3",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 1,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/4/3",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/0/2",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 1,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/0/3",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/4/2",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 1,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/4/3",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 2,
+    "url": "/tile/Room_Builder_Floor_Shadows_16x16.png/10/2"
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 2,
+    "url": "/tile/Room_Builder_Floor_Shadows_16x16.png/10/2"
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 2,
+    "url": "/tile/Room_Builder_Floor_Shadows_16x16.png/10/2"
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 2,
+    "url": "/tile/Room_Builder_Floor_Shadows_16x16.png/10/2"
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/14/7"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/14/7"
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 5,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/0/9",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/1/9",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 6,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/0/10",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/1/10",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/0/10",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/1/10",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/0/9",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/1/9",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/0/10",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/1/10",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 2,
+    "url": "/tile/20_Japanese_interiors.png/12/7"
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 2,
+    "url": "/tile/20_Japanese_interiors.png/13/7"
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/0/9",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 1,
+    "url": "/tile/20_Japanese_interiors.png/1/9",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/3"
+   },
+   {
+    "tx": 13,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 5,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/23",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/22",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/22",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/22",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/22",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/23",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_Walls_16x16.png/8/9",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_Walls_16x16.png/8/9",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/19"
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/19"
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/19"
+   },
+   {
+    "tx": 2,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/19"
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/19"
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/19"
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/9/5",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/10/5",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/9/4",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/10/4",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/9/3"
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/10/3"
+   },
+   {
+    "tx": 6,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/14/0"
+   },
+   {
+    "tx": 6,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/14/1"
+   },
+   {
+    "tx": 9,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/15/0"
+   },
+   {
+    "tx": 9,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/15/1"
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/10/10"
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/11/10"
+   },
+   {
+    "tx": 11,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/10/11"
+   },
+   {
+    "tx": 12,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/11/11"
+   },
+   {
+    "tx": 13,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/9/11"
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/9/10"
+   },
+   {
+    "tx": 2,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/9/10"
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/10/10"
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/11/10"
+   },
+   {
+    "tx": 3,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/10/11"
+   },
+   {
+    "tx": 4,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/11/11"
+   },
+   {
+    "tx": 2,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/9/11"
+   },
+   {
+    "tx": 1,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/8/16",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/8/18",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_Walls_16x16.png/8/9",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_Walls_16x16.png/8/9",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/23",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/23",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/23",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_Walls_16x16.png/8/9",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/23",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_Walls_16x16.png/8/9",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_Walls_16x16.png/1/7",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_Walls_16x16.png/1/6",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_Walls_16x16.png/1/6",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_Walls_16x16.png/1/7",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/23",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/23",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   },
+   {
+    "tx": 14,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/24",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/8/19",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 1,
+    "z": 7,
+    "url": "/tile/20_Japanese_interiors.png/6/7",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 2,
+    "z": 7,
+    "url": "/tile/20_Japanese_interiors.png/6/8",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/2/2"
+   },
+   {
+    "tx": 1,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/24",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/20_Japanese_interiors.png/8/17",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 1,
+    "z": 7,
+    "url": "/tile/20_Japanese_interiors.png/6/7",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 2,
+    "z": 7,
+    "url": "/tile/20_Japanese_interiors.png/6/8",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/20_Japanese_interiors.png/3/2"
+   }
+  ],
+  "furniture": [],
+  "spawn": {
+   "tx": 8,
+   "ty": 9
+  }
+ },
+ "party": {
+  "tile": 16,
+  "width": 16,
+  "height": 12,
+  "assetBase": "/room",
+  "tiles": [
+   {
+    "tx": 1,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 2,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 3,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 4,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 5,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 6,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 9,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 11,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 12,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 14,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 1,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 2,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 3,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 4,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 5,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 7,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 9,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 10,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 11,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 13,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 1,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 2,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 3,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 12,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 13,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 14,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 1,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 2,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 14,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 1,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 2,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 3,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 13,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 1,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 2,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 3,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 12,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 14,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 1,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 2,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 3,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 4,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 6,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 7,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 9,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 12,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 13,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 14,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 1,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 2,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 3,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 4,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 5,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 6,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 7,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 8,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 9,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 10,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 11,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 12,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 13,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 1,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 2,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 3,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 4,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 5,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 6,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 7,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 8,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 9,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 10,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 11,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 12,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 13,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 0,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/5"
+   },
+   {
+    "tx": 1,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 2,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 3,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 4,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 5,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 6,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 7,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 8,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 9,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 10,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 11,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 12,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 13,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 14,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 15,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/5"
+   },
+   {
+    "tx": 1,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/10/0"
+   },
+   {
+    "tx": 1,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/10/1"
+   },
+   {
+    "tx": 2,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/11/2"
+   },
+   {
+    "tx": 2,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/11/3"
+   },
+   {
+    "tx": 13,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/10/2",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/10/3",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/2/1",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/11/1",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 1,
+    "ty": 8,
+    "z": 13,
+    "url": "/tile/10_Birthday_party_16x16.png/1/5",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 9,
+    "z": 13,
+    "url": "/tile/10_Birthday_party_16x16.png/1/6",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 14,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/2/6"
+   },
+   {
+    "tx": 3,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 4,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 7,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 9,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 11,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 11,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 5,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 5,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 6,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 7,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 8,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 9,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 10,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 14,
+    "url": "/tile/10_Birthday_party_16x16.png/4/5"
+   },
+   {
+    "tx": 4,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 4,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 4,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/0/8",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/1/10",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/4/10",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/4/10",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/2/10",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/0/10",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 9,
+    "url": "/tile/1_Generic_16x16.png/3/9",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 9,
+    "url": "/tile/1_Generic_16x16.png/0/9",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 9,
+    "url": "/tile/10_Birthday_party_16x16.png/0/2"
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 9,
+    "url": "/tile/10_Birthday_party_16x16.png/0/3"
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 9,
+    "url": "/tile/10_Birthday_party_16x16.png/1/3"
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 9,
+    "url": "/tile/10_Birthday_party_16x16.png/9/2"
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 9,
+    "url": "/tile/10_Birthday_party_16x16.png/6/3"
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/2/8",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/1/9",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/1/9",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/1/8",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/13_Conference_Hall_16x16.png/7/7",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/13_Conference_Hall_16x16.png/7/7",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/1/9",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/1/9",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/24_Ice_Cream_Shop.png/1/4"
+   },
+   {
+    "tx": 14,
+    "ty": 2,
+    "z": 13,
+    "url": "/tile/10_Birthday_party_16x16.png/2/5",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 11,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/3/8",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/1/4"
+   },
+   {
+    "tx": 9,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/0/4"
+   },
+   {
+    "tx": 10,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/1/4"
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/2/4"
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/3/4"
+   },
+   {
+    "tx": 2,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/2/4"
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/3/4"
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/4/4"
+   },
+   {
+    "tx": 5,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/0/4"
+   },
+   {
+    "tx": 1,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/29",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/29",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/29",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/29",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 2,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/33",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 2,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/33",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 3,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/33",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 3,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/33",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 4,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/33",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 4,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/33",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/33",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/33",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/33",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/33",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/33",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/33",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 8,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/33",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 8,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/33",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 9,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/33",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 9,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/33",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 10,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/33",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 10,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/33",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30"
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 7,
+    "ty": 0,
+    "z": 9,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 9,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 1,
+    "z": 9,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 1,
+    "z": 9,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/19_Hospital_16x16.png/0/0"
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/19_Hospital_16x16.png/1/0"
+   },
+   {
+    "tx": 7,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/19_Hospital_16x16.png/0/1"
+   },
+   {
+    "tx": 8,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/19_Hospital_16x16.png/1/1"
+   },
+   {
+    "tx": 2,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/10_Birthday_party_16x16.png/6/3",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 2,
+    "z": 13,
+    "url": "/tile/10_Birthday_party_16x16.png/0/5",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 1,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/10_Birthday_party_16x16.png/5/5",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/10_Birthday_party_16x16.png/5/5",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/10_Birthday_party_16x16.png/5/6",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/10_Birthday_party_16x16.png/7/6",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/10_Birthday_party_16x16.png/7/5",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/10_Birthday_party_16x16.png/7/5",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 6,
+    "z": 7,
+    "url": "/tile/10_Birthday_party_16x16.png/5/6",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 6,
+    "z": 7,
+    "url": "/tile/10_Birthday_party_16x16.png/5/6",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 13,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 13,
+    "ty": 2,
+    "z": 9,
+    "url": "/tile/24_Ice_Cream_Shop.png/0/4",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 1,
+    "z": 9,
+    "url": "/tile/24_Ice_Cream_Shop.png/0/3",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 1,
+    "z": 9,
+    "url": "/tile/24_Ice_Cream_Shop.png/1/3",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 0,
+    "z": 9,
+    "url": "/tile/24_Ice_Cream_Shop.png/1/0",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 0,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 13,
+    "url": "/tile/10_Birthday_party_16x16.png/4/4",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/24_Ice_Cream_Shop.png/0/0",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 9,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/30"
+   },
+   {
+    "tx": 11,
+    "ty": 2,
+    "z": 9,
+    "url": "/tile/24_Ice_Cream_Shop.png/7/9",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 2,
+    "z": 9,
+    "url": "/tile/24_Ice_Cream_Shop.png/8/9",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 1,
+    "z": 9,
+    "url": "/tile/24_Ice_Cream_Shop.png/7/8",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 1,
+    "z": 9,
+    "url": "/tile/24_Ice_Cream_Shop.png/8/8",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 1,
+    "z": 8,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/31",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 1,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/10_Birthday_party_16x16.png/0/6",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 1,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/14/100"
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/19_Hospital_16x16.png/14/99"
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/2/8",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 12,
+    "url": "/tile/10_Birthday_party_16x16.png/1/2"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/2/8",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 10,
+    "url": "/anim/animated_Christmas_jack_in_the_box.png/0/1",
+    "activate": "birthday_jackbox"
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/2/8",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/1/8",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 12,
+    "url": "/tile/10_Birthday_party_16x16.png/3/1"
+   },
+   {
+    "tx": 9,
+    "ty": 4,
+    "z": 6,
+    "url": "/tile/10_Birthday_party_16x16.png/6/1",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 9,
+    "ty": 4,
+    "z": 5,
+    "url": "/tile/10_Birthday_party_16x16.png/7/3"
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 19,
+    "url": "/anim/animated_Christmas_jack_in_the_box.png/0/0",
+    "activate": "birthday_jackbox"
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 4,
+    "ty": 7,
+    "z": 7,
+    "url": "/tile/18_Jail_16x16.png/4/36",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/18_Jail_16x16.png/0/36",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 9,
+    "url": "/tile/10_Birthday_party_16x16.png/6/2"
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 11,
+    "url": "/tile/10_Birthday_party_16x16.png/4/1"
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 9,
+    "url": "/tile/10_Birthday_party_16x16.png/7/2"
+   },
+   {
+    "tx": 5,
+    "ty": 6,
+    "z": 9,
+    "url": "/tile/10_Birthday_party_16x16.png/5/1"
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 4,
+    "url": "/tile/18_Jail_16x16.png/4/35",
+    "solid": true,
+    "chair": {
+     "y": 14,
+     "dir": "right"
+    }
+   },
+   {
+    "tx": 8,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 8,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 8,
+    "ty": 3,
+    "z": 9,
+    "url": "/tile/18_Jail_16x16.png/0/35",
+    "solid": true,
+    "chair": {
+     "y": 20,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 5,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 11,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/3"
+   },
+   {
+    "tx": 11,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/1_Generic_16x16.png/3/10"
+   },
+   {
+    "tx": 11,
+    "ty": 7,
+    "z": 7,
+    "url": "/tile/18_Jail_16x16.png/3/34",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/10/2"
+   },
+   {
+    "tx": 7,
+    "ty": 7,
+    "z": 7,
+    "url": "/tile/1_Generic_16x16.png/4/10",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/18_Jail_16x16.png/2/34"
+   },
+   {
+    "tx": 7,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/18_Jail_16x16.png/2/33",
+    "chair": {
+     "y": 16,
+     "dir": "up"
+    }
+   },
+   {
+    "tx": 10,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/2"
+   },
+   {
+    "tx": 9,
+    "ty": 7,
+    "z": 7,
+    "url": "/tile/1_Generic_16x16.png/4/10",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/18_Jail_16x16.png/2/36"
+   },
+   {
+    "tx": 9,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/18_Jail_16x16.png/2/35",
+    "chair": {
+     "y": 16,
+     "dir": "up"
+    }
+   },
+   {
+    "tx": 12,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 4,
+    "url": "/tile/18_Jail_16x16.png/3/33",
+    "solid": true,
+    "chair": {
+     "y": 14,
+     "dir": "left"
+    }
+   },
+   {
+    "tx": 13,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/9/3"
+   },
+   {
+    "tx": 9,
+    "ty": 3,
+    "z": 12,
+    "url": "/tile/10_Birthday_party_16x16.png/6/0",
+    "solid": false
+   },
+   {
+    "tx": 6,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/3"
+   },
+   {
+    "tx": 6,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/8/2"
+   },
+   {
+    "tx": 6,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/18_Jail_16x16.png/0/34",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 3,
+    "z": 9,
+    "url": "/tile/18_Jail_16x16.png/0/33",
+    "solid": true,
+    "chair": {
+     "y": 21,
+     "dir": "down"
+    }
+   }
+  ],
+  "furniture": [],
+  "spawn": {
+   "tx": 8,
+   "ty": 9
+  }
+ },
+ "halloween": {
+  "tile": 16,
+  "width": 16,
+  "height": 12,
+  "assetBase": "/room",
+  "tiles": [
+   {
+    "tx": 1,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/12/18"
+   },
+   {
+    "tx": 2,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 3,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 4,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 5,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 6,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 8,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 9,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 10,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 11,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 12,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 13,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 14,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/18"
+   },
+   {
+    "tx": 1,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/12/19"
+   },
+   {
+    "tx": 2,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 3,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 4,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 5,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 6,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 7,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 8,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 9,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 10,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 11,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 12,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 13,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 14,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 1,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/12/19"
+   },
+   {
+    "tx": 2,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 3,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 4,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 6,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 7,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 8,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 9,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 11,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 13,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 14,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 1,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/12/19"
+   },
+   {
+    "tx": 2,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 3,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 4,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 11,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 12,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 13,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 14,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 1,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/12/19"
+   },
+   {
+    "tx": 5,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 12,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 13,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 14,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 1,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/12/19"
+   },
+   {
+    "tx": 3,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 4,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 5,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 6,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 7,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 8,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 9,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 10,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 11,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 12,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 13,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 14,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 1,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/12/19"
+   },
+   {
+    "tx": 3,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 4,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 5,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 7,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 8,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 10,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 11,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 12,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 13,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 14,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 1,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/12/19"
+   },
+   {
+    "tx": 2,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 3,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 4,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 5,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 6,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 7,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 8,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 9,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 10,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 11,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 12,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 13,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 1,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/12/19"
+   },
+   {
+    "tx": 2,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 3,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 4,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 5,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 6,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 7,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 8,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 9,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 10,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 11,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 12,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 13,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 1,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 1,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 2,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 2,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 3,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 4,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 5,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 5,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 6,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 6,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 7,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 7,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 8,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 9,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 9,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 10,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 10,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 11,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 12,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 13,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 14,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/9"
+   },
+   {
+    "tx": 14,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/11/10"
+   },
+   {
+    "tx": 15,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/14/8"
+   },
+   {
+    "tx": 15,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/12/8"
+   },
+   {
+    "tx": 15,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/14/12"
+   },
+   {
+    "tx": 15,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/14/12"
+   },
+   {
+    "tx": 15,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/14/12"
+   },
+   {
+    "tx": 15,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/14/12"
+   },
+   {
+    "tx": 15,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/14/12"
+   },
+   {
+    "tx": 15,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/14/12"
+   },
+   {
+    "tx": 15,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/14/12"
+   },
+   {
+    "tx": 15,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/14/12"
+   },
+   {
+    "tx": 15,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/14/12"
+   },
+   {
+    "tx": 1,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 2,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 3,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 4,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 5,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 6,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 7,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 8,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 9,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 10,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 11,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 12,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 13,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 14,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 15,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/5"
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/1/13"
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/1/13"
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/1/13"
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/1/13"
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/1/13"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/8/13"
+   },
+   {
+    "tx": 5,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/2/14"
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/1/14"
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/2/14"
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/1/14"
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/2/14"
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/1/14"
+   },
+   {
+    "tx": 5,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/1/15"
+   },
+   {
+    "tx": 6,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/4/15"
+   },
+   {
+    "tx": 7,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/2/15"
+   },
+   {
+    "tx": 8,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/1/15"
+   },
+   {
+    "tx": 9,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/4/15"
+   },
+   {
+    "tx": 10,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/8/14"
+   },
+   {
+    "tx": 1,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/0/2"
+   },
+   {
+    "tx": 1,
+    "ty": 1,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/0/3"
+   },
+   {
+    "tx": 7,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/11_Halloween_16x16.png/7/8"
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/11_Halloween_16x16.png/8/8"
+   },
+   {
+    "tx": 7,
+    "ty": 1,
+    "z": 11,
+    "url": "/tile/11_Halloween_16x16.png/7/9"
+   },
+   {
+    "tx": 8,
+    "ty": 1,
+    "z": 11,
+    "url": "/tile/11_Halloween_16x16.png/8/9"
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/11_Halloween_16x16.png/8/22"
+   },
+   {
+    "tx": 4,
+    "ty": 1,
+    "z": 11,
+    "url": "/tile/11_Halloween_16x16.png/8/23"
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 11,
+    "url": "/tile/11_Halloween_16x16.png/9/15"
+   },
+   {
+    "tx": 11,
+    "ty": 1,
+    "z": 11,
+    "url": "/tile/11_Halloween_16x16.png/9/16"
+   },
+   {
+    "tx": 1,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/12/4"
+   },
+   {
+    "tx": 2,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/13/4"
+   },
+   {
+    "tx": 1,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/12/5"
+   },
+   {
+    "tx": 2,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/13/5"
+   },
+   {
+    "tx": 1,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/12/6"
+   },
+   {
+    "tx": 2,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/13/6"
+   },
+   {
+    "tx": 13,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/14/4"
+   },
+   {
+    "tx": 14,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/15/4"
+   },
+   {
+    "tx": 14,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/15/5"
+   },
+   {
+    "tx": 13,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/14/6"
+   },
+   {
+    "tx": 14,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/15/6"
+   },
+   {
+    "tx": 1,
+    "ty": 9,
+    "z": 10,
+    "url": "/anim/animated_cauldron.png/0/0"
+   },
+   {
+    "tx": 2,
+    "ty": 9,
+    "z": 10,
+    "url": "/anim/animated_cauldron.png/1/0"
+   },
+   {
+    "tx": 1,
+    "ty": 10,
+    "z": 10,
+    "url": "/anim/animated_cauldron.png/0/1"
+   },
+   {
+    "tx": 2,
+    "ty": 10,
+    "z": 10,
+    "url": "/anim/animated_cauldron.png/1/1"
+   },
+   {
+    "tx": 13,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/10/0"
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/11/0"
+   },
+   {
+    "tx": 13,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/10/1"
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/11/1"
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/5/0"
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/9/2"
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/5/3"
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/9/3"
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/0/6"
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/1/6"
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/0/7"
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/1/7"
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 11,
+    "url": "/anim/animated_candle_wax.png/0/1"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 11,
+    "url": "/anim/animated_candle_wax.png/0/0"
+   },
+   {
+    "tx": 13,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/14/5"
+   },
+   {
+    "tx": 2,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 2,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 2,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 0,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/12"
+   },
+   {
+    "tx": 0,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/12"
+   },
+   {
+    "tx": 0,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/12"
+   },
+   {
+    "tx": 0,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/12"
+   },
+   {
+    "tx": 0,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/12"
+   },
+   {
+    "tx": 0,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/12"
+   },
+   {
+    "tx": 0,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/12"
+   },
+   {
+    "tx": 0,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/12"
+   },
+   {
+    "tx": 0,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/12"
+   },
+   {
+    "tx": 0,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/10/12"
+   },
+   {
+    "tx": 0,
+    "ty": 1,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/10"
+   },
+   {
+    "tx": 0,
+    "ty": 0,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/9/8"
+   },
+   {
+    "tx": 4,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/0/13"
+   },
+   {
+    "tx": 4,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/0/15"
+   },
+   {
+    "tx": 11,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/3/15"
+   },
+   {
+    "tx": 11,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/3/13"
+   },
+   {
+    "tx": 12,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/9/27"
+   },
+   {
+    "tx": 12,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/9/28"
+   },
+   {
+    "tx": 3,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/10/27"
+   },
+   {
+    "tx": 3,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/10/28"
+   },
+   {
+    "tx": 9,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/0/4"
+   },
+   {
+    "tx": 9,
+    "ty": 1,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/0/5"
+   },
+   {
+    "tx": 14,
+    "ty": 0,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/3/2"
+   },
+   {
+    "tx": 14,
+    "ty": 1,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/3/3"
+   },
+   {
+    "tx": 2,
+    "ty": 3,
+    "z": 12,
+    "url": "/tile/11_Halloween_16x16.png/1/4"
+   },
+   {
+    "tx": 7,
+    "ty": 3,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/11/20"
+   },
+   {
+    "tx": 8,
+    "ty": 3,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/12/20"
+   },
+   {
+    "tx": 7,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/11/21"
+   },
+   {
+    "tx": 8,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/12/21"
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 6,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/3/14"
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/7/17",
+    "chair": {
+     "y": 13,
+     "dir": "left"
+    }
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/7/17",
+    "chair": {
+     "y": 13,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/7/17",
+    "chair": {
+     "y": 13,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 6,
+    "ty": 8,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/7/17",
+    "chair": {
+     "y": 12,
+     "dir": "up",
+     "flat": true
+    }
+   },
+   {
+    "tx": 3,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/0/14"
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/7/17",
+    "chair": {
+     "y": 13,
+     "dir": "right"
+    }
+   },
+   {
+    "tx": 12,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 11,
+    "ty": 7,
+    "z": 1,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 9,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/13/19"
+   },
+   {
+    "tx": 9,
+    "ty": 8,
+    "z": 9,
+    "url": "/tile/11_Halloween_16x16.png/7/17",
+    "chair": {
+     "y": 12,
+     "dir": "up",
+     "flat": true
+    }
+   },
+   {
+    "tx": 5,
+    "ty": 0,
+    "z": 13,
+    "url": "/tile/11_Halloween_16x16.png/2/0"
+   },
+   {
+    "tx": 5,
+    "ty": 1,
+    "z": 13,
+    "url": "/tile/11_Halloween_16x16.png/2/1"
+   },
+   {
+    "tx": 6,
+    "ty": 1,
+    "z": 13,
+    "url": "/tile/11_Halloween_16x16.png/5/25"
+   },
+   {
+    "tx": 6,
+    "ty": 2,
+    "z": 13,
+    "url": "/tile/11_Halloween_16x16.png/5/26"
+   },
+   {
+    "tx": 14,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/15/10",
+    "activate": "halloween_ghost"
+   },
+   {
+    "tx": 14,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/15/11",
+    "activate": "halloween_ghost"
+   },
+   {
+    "tx": 14,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/11_Halloween_16x16.png/15/12",
+    "activate": "halloween_ghost"
+   }
+  ],
+  "furniture": [],
+  "spawn": {
+   "tx": 8,
+   "ty": 9
+  }
+ },
+ "lounge": {
+  "tile": 16,
+  "width": 16,
+  "height": 12,
+  "assetBase": "/room",
+  "tiles": [
+   {
+    "tx": 1,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/4/22"
+   },
+   {
+    "tx": 2,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 3,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 4,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 5,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 12,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 13,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 14,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 1,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/4/23"
+   },
+   {
+    "tx": 2,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 3,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 5,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 6,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 7,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 9,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 10,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 13,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 14,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 1,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/4/23"
+   },
+   {
+    "tx": 2,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 3,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 4,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 6,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 7,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 9,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 12,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 13,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 14,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 1,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/4/23"
+   },
+   {
+    "tx": 2,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 3,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 4,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 13,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 14,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 1,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/4/23"
+   },
+   {
+    "tx": 2,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 3,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 13,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 14,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 1,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/4/23"
+   },
+   {
+    "tx": 2,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 3,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 4,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 13,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 14,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 1,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/4/23"
+   },
+   {
+    "tx": 2,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 3,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 4,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 5,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 6,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 7,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 10,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 11,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 12,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 13,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 14,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 1,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/4/23"
+   },
+   {
+    "tx": 2,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 3,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 4,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 5,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 6,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 7,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 11,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 12,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 13,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 1,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/4/23"
+   },
+   {
+    "tx": 2,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 3,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 4,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 5,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 6,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 7,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 9,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 10,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 11,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 12,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 13,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 0,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/57"
+   },
+   {
+    "tx": 15,
+    "ty": 2,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/57"
+   },
+   {
+    "tx": 0,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/57"
+   },
+   {
+    "tx": 15,
+    "ty": 3,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/57"
+   },
+   {
+    "tx": 0,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/57"
+   },
+   {
+    "tx": 15,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/57"
+   },
+   {
+    "tx": 0,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/57"
+   },
+   {
+    "tx": 15,
+    "ty": 5,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/57"
+   },
+   {
+    "tx": 0,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/57"
+   },
+   {
+    "tx": 15,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/57"
+   },
+   {
+    "tx": 0,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/57"
+   },
+   {
+    "tx": 15,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/57"
+   },
+   {
+    "tx": 0,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/57"
+   },
+   {
+    "tx": 15,
+    "ty": 8,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/57"
+   },
+   {
+    "tx": 0,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/57"
+   },
+   {
+    "tx": 15,
+    "ty": 9,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/57"
+   },
+   {
+    "tx": 0,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/57"
+   },
+   {
+    "tx": 15,
+    "ty": 10,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/57"
+   },
+   {
+    "tx": 0,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/18/5"
+   },
+   {
+    "tx": 1,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 2,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 3,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 4,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 5,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 6,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 7,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 8,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 9,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 10,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 11,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 12,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 13,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 14,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/5"
+   },
+   {
+    "tx": 15,
+    "ty": 11,
+    "z": 10,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/21/5"
+   },
+   {
+    "tx": 4,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/2_LivingRoom_16x16.png/3/30",
+    "chair": {
+     "y": 8,
+     "dir": "right"
+    }
+   },
+   {
+    "tx": 1,
+    "ty": 10,
+    "z": 9,
+    "url": "/tile/2_LivingRoom_16x16.png/0/25",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 9,
+    "z": 9,
+    "url": "/tile/2_LivingRoom_16x16.png/0/24",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 3,
+    "z": 10,
+    "url": "/anim/animated_cat.png/1/0",
+    "activate": "lounge_cat"
+   },
+   {
+    "tx": 7,
+    "ty": 3,
+    "z": 10,
+    "url": "/anim/animated_cat.png/0/0",
+    "activate": "lounge_cat"
+   },
+   {
+    "tx": 9,
+    "ty": 3,
+    "z": 10,
+    "url": "/anim/animated_cat.png/2/0",
+    "activate": "lounge_cat"
+   },
+   {
+    "tx": 11,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 11,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 14,
+    "ty": 10,
+    "z": 12,
+    "url": "/tile/2_LivingRoom_16x16.png/12/2",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 9,
+    "z": 12,
+    "url": "/tile/2_LivingRoom_16x16.png/12/1",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 8,
+    "z": 12,
+    "url": "/tile/2_LivingRoom_16x16.png/12/0",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 5,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 6,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 7,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 9,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 10,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 12,
+    "url": "/tile/2_LivingRoom_16x16.png/0/10"
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 12,
+    "url": "/tile/2_LivingRoom_16x16.png/2/10"
+   },
+   {
+    "tx": 5,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/7/2",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/7/3",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/8/3",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/8/3",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/8/3",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/8/3",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/9/2",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 7,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/9/3",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/8/2",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/8/2",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/8/2",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 6,
+    "z": 8,
+    "url": "/tile/2_LivingRoom_16x16.png/8/2",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 12,
+    "url": "/tile/2_LivingRoom_16x16.png/0/11"
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 12,
+    "url": "/tile/2_LivingRoom_16x16.png/2/9"
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 9,
+    "url": "/tile/2_LivingRoom_16x16.png/7/1",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 9,
+    "url": "/tile/2_LivingRoom_16x16.png/8/1",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 9,
+    "url": "/tile/2_LivingRoom_16x16.png/8/1",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 5,
+    "z": 7,
+    "url": "/tile/2_LivingRoom_16x16.png/1/29",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 5,
+    "z": 7,
+    "url": "/tile/2_LivingRoom_16x16.png/2/29",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 5,
+    "z": 7,
+    "url": "/tile/2_LivingRoom_16x16.png/2/29",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 8,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 10,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 9,
+    "ty": 9,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 12,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 12,
+    "ty": 7,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 9,
+    "url": "/tile/2_LivingRoom_16x16.png/9/1",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 7,
+    "url": "/tile/2_LivingRoom_16x16.png/3/29",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 11,
+    "url": "/tile/2_LivingRoom_16x16.png/3/28",
+    "solid": false,
+    "chair": {
+     "y": 24,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 9,
+    "ty": 4,
+    "z": 11,
+    "url": "/tile/2_LivingRoom_16x16.png/2/28",
+    "solid": false,
+    "chair": {
+     "y": 24,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 8,
+    "ty": 4,
+    "z": 11,
+    "url": "/tile/2_LivingRoom_16x16.png/1/28",
+    "solid": false,
+    "chair": {
+     "y": 24,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 7,
+    "ty": 4,
+    "z": 11,
+    "url": "/tile/2_LivingRoom_16x16.png/3/28",
+    "solid": false,
+    "chair": {
+     "y": 24,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 6,
+    "ty": 4,
+    "z": 11,
+    "url": "/tile/2_LivingRoom_16x16.png/2/28",
+    "solid": false,
+    "chair": {
+     "y": 24,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 5,
+    "ty": 4,
+    "z": 11,
+    "url": "/tile/2_LivingRoom_16x16.png/1/28",
+    "solid": false,
+    "chair": {
+     "y": 24,
+     "dir": "down"
+    }
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 9,
+    "url": "/tile/2_LivingRoom_16x16.png/8/1",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 5,
+    "z": 7,
+    "url": "/tile/2_LivingRoom_16x16.png/3/29",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 2,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/4/3",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/4/3",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 2,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/3/3",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 2,
+    "z": 9,
+    "url": "/anim/animated_chimney_red.png/0/2",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 2,
+    "z": 9,
+    "url": "/anim/animated_chimney_red.png/1/2",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 2,
+    "z": 9,
+    "url": "/tile/2_LivingRoom_16x16.png/13/41",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 0,
+    "z": 13,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/57",
+    "solid": false
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 13,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/57",
+    "solid": false
+   },
+   {
+    "tx": 5,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 5,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/17/53",
+    "solid": true
+   },
+   {
+    "tx": 0,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/53",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/22/53",
+    "solid": true
+   },
+   {
+    "tx": 15,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/53",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 1,
+    "z": 5,
+    "url": "/anim/animated_chimney_red.png/0/1",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 1,
+    "z": 5,
+    "url": "/anim/animated_chimney_red.png/1/1",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 0,
+    "z": 5,
+    "url": "/anim/animated_chimney.png/0/0",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 5,
+    "url": "/anim/animated_chimney.png/1/0",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/13/40",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 7,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 6,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 9,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 9,
+    "ty": 2,
+    "z": 1,
+    "url": "/tile/8_Gym_16x16.png/5/3",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 10,
+    "ty": 2,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/22"
+   },
+   {
+    "tx": 10,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/5/16",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/6/16",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/6/10",
+    "solid": true
+   },
+   {
+    "tx": 11,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/5/11",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 0,
+    "z": 6,
+    "url": "/tile/2_LivingRoom_16x16.png/0/30",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 1,
+    "z": 6,
+    "url": "/tile/2_LivingRoom_16x16.png/0/31",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/7/9",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/9/9",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/8/6",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/7/7",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/10/7",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/7/8",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/9/8",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/8/4",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/2_LivingRoom_16x16.png/8/5",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 13,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 14,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 1,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/8/9",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/9/9",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/10/9",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 2,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/11/9",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/8/8",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/9/8",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/10/8",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 1,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/11/8",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/8/7",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/10/7",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/9/7",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 5,
+    "url": "/tile/5_Classroom_and_library_16x16.png/11/7",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 1,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/20/55",
+    "solid": true
+   },
+   {
+    "tx": 1,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 3,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 2,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 0,
+    "z": 4,
+    "url": "/tile/Room_Builder_3d_walls_16x16.png/19/54",
+    "solid": true
+   },
+   {
+    "tx": 4,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 4,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/2_LivingRoom_16x16.png/3/30",
+    "chair": {
+     "y": 8,
+     "dir": "right"
+    }
+   },
+   {
+    "tx": 11,
+    "ty": 6,
+    "z": 10,
+    "url": "/tile/2_LivingRoom_16x16.png/3/30",
+    "chair": {
+     "y": 8,
+     "dir": "left"
+    }
+   },
+   {
+    "tx": 11,
+    "ty": 7,
+    "z": 10,
+    "url": "/tile/2_LivingRoom_16x16.png/3/30",
+    "chair": {
+     "y": 8,
+     "dir": "left"
+    }
+   },
+   {
+    "tx": 11,
+    "ty": 5,
+    "z": 9,
+    "url": "/tile/2_LivingRoom_16x16.png/12/14",
+    "solid": true
+   },
+   {
+    "tx": 12,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 9,
+    "url": "/tile/2_LivingRoom_16x16.png/8/1",
+    "solid": true
+   },
+   {
+    "tx": 8,
+    "ty": 5,
+    "z": 7,
+    "url": "/tile/2_LivingRoom_16x16.png/1/29",
+    "solid": true
+   },
+   {
+    "tx": 10,
+    "ty": 5,
+    "z": 12,
+    "url": "/tile/2_LivingRoom_16x16.png/14/32"
+   },
+   {
+    "tx": 10,
+    "ty": 4,
+    "z": 12,
+    "url": "/tile/2_LivingRoom_16x16.png/14/31"
+   },
+   {
+    "tx": 11,
+    "ty": 4,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 11,
+    "ty": 3,
+    "z": 0,
+    "url": "/tile/Room_Builder_Floors_16x16.png/5/23"
+   },
+   {
+    "tx": 11,
+    "ty": 3,
+    "z": 14,
+    "url": "/tile/2_LivingRoom_16x16.png/12/12"
+   },
+   {
+    "tx": 11,
+    "ty": 4,
+    "z": 10,
+    "url": "/tile/2_LivingRoom_16x16.png/12/13",
+    "solid": true
+   }
+  ],
+  "furniture": [],
+  "spawn": {
+   "tx": 8,
+   "ty": 9
+  }
+ }
+}

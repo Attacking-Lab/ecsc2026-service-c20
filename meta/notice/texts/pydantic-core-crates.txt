@@ -1,0 +1,337 @@
+Third-party Rust crates statically linked into pydantic_core/_pydantic_core.cpython-312-x86_64-linux-gnu.so
+(pydantic-core 2.46.4, x86_64-unknown-linux-gnu wheel)
+
+Crate set: `cargo tree --locked --target x86_64-unknown-linux-gnu -e normal,no-proc-macro` on
+pydantic/pydantic tag v2.13.4, pydantic-core/Cargo.{toml,lock} (package version 2.46.4).
+Every crate below appears in the wheel's sboms/pydantic-core.cyclonedx.json; each .crate was
+downloaded from static.crates.io and its SHA-256 matched the SBOM. Build-time-only crates
+(proc-macros, build scripts) and crates for other targets (wasm, wasi, UEFI, Windows) are omitted.
+Where a crate is offered under a choice of licenses, it is used here under the license in the
+'Used under' column. The Rust standard library is also linked; see rust-std.txt.
+
+Crate                        Version    Declared license                     Used under
+------------------------------------------------------------------------------------------
+ahash                        0.8.12     MIT OR Apache-2.0                    MIT
+aho-corasick                 1.1.3      Unlicense OR MIT                     MIT
+allocator-api2               0.2.21     MIT OR Apache-2.0                    MIT
+base64                       0.22.1     MIT OR Apache-2.0                    MIT
+bitvec                       1.0.1      MIT                                  MIT
+cfg-if                       1.0.0      MIT OR Apache-2.0                    MIT
+equivalent                   1.0.2      Apache-2.0 OR MIT                    MIT
+foldhash                     0.2.0      Zlib                                 Zlib
+form_urlencoded              1.2.2      MIT OR Apache-2.0                    MIT
+funty                        2.0.0      MIT                                  MIT
+getrandom                    0.3.3      MIT OR Apache-2.0                    MIT
+hashbrown                    0.16.1     MIT OR Apache-2.0                    MIT
+hex                          0.4.3      MIT OR Apache-2.0                    MIT
+icu_collections              1.5.0      Unicode-3.0                          Unicode-3.0
+icu_locid_transform_data     1.5.0      Unicode-3.0                          Unicode-3.0
+icu_locid_transform          1.5.0      Unicode-3.0                          Unicode-3.0
+icu_locid                    1.5.0      Unicode-3.0                          Unicode-3.0
+icu_normalizer_data          1.5.0      Unicode-3.0                          Unicode-3.0
+icu_normalizer               1.5.0      Unicode-3.0                          Unicode-3.0
+icu_properties_data          1.5.0      Unicode-3.0                          Unicode-3.0
+icu_properties               1.5.1      Unicode-3.0                          Unicode-3.0
+icu_provider                 1.5.0      Unicode-3.0                          Unicode-3.0
+idna_adapter                 1.2.0      Apache-2.0 OR MIT                    MIT
+idna                         1.1.0      MIT OR Apache-2.0                    MIT
+itoa                         1.0.11     MIT OR Apache-2.0                    MIT
+jiter                        0.14.0     MIT                                  MIT
+lexical-parse-float          1.0.5      MIT OR Apache-2.0                    MIT
+lexical-parse-integer        1.0.5      MIT OR Apache-2.0                    MIT
+lexical-util                 1.0.6      MIT OR Apache-2.0                    MIT
+libc                         0.2.185    MIT OR Apache-2.0                    MIT
+litemap                      0.7.3      Unicode-3.0                          Unicode-3.0
+lru                          0.16.3     MIT                                  MIT
+memchr                       2.7.4      Unlicense OR MIT                     MIT
+num-bigint                   0.4.6      MIT OR Apache-2.0                    MIT
+num-integer                  0.1.46     MIT OR Apache-2.0                    MIT
+num-traits                   0.2.19     MIT OR Apache-2.0                    MIT
+once_cell                    1.21.3     MIT OR Apache-2.0                    MIT
+percent-encoding             2.3.2      MIT OR Apache-2.0                    MIT
+pyo3-ffi                     0.28.3     MIT OR Apache-2.0                    MIT
+pyo3                         0.28.3     MIT OR Apache-2.0                    MIT
+radium                       0.7.0      MIT                                  MIT
+regex-automata               0.4.13     MIT OR Apache-2.0                    MIT
+regex-syntax                 0.8.5      MIT OR Apache-2.0                    MIT
+regex                        1.12.3     MIT OR Apache-2.0                    MIT
+serde_core                   1.0.228    MIT OR Apache-2.0                    MIT
+serde_json                   1.0.149    MIT OR Apache-2.0                    MIT
+serde                        1.0.228    MIT OR Apache-2.0                    MIT
+smallvec                     1.15.1     MIT OR Apache-2.0                    MIT
+speedate                     0.17.0     MIT                                  MIT
+stable_deref_trait           1.2.0      MIT OR Apache-2.0                    MIT
+static_assertions            1.1.0      MIT OR Apache-2.0                    MIT
+strum                        0.27.2     MIT                                  MIT
+tap                          1.0.1      MIT                                  MIT
+tinystr                      0.7.6      Unicode-3.0                          Unicode-3.0
+url                          2.5.8      MIT OR Apache-2.0                    MIT
+utf16_iter                   1.0.5      Apache-2.0 OR MIT                    MIT
+utf8_iter                    1.0.4      Apache-2.0 OR MIT                    MIT
+uuid                         1.23.0     Apache-2.0 OR MIT                    MIT
+write16                      1.0.0      Apache-2.0 OR MIT                    MIT
+writeable                    0.5.5      Unicode-3.0                          Unicode-3.0
+wyz                          0.5.1      MIT                                  MIT
+yoke                         0.7.4      Unicode-3.0                          Unicode-3.0
+zerocopy                     0.8.25     BSD-2-Clause OR Apache-2.0 OR MIT    MIT
+zerofrom                     0.1.4      Unicode-3.0                          Unicode-3.0
+zerovec                      0.10.4     Unicode-3.0                          Unicode-3.0
+zmij                         1.0.6      MIT                                  MIT
+
+Copyright notices (verbatim from each crate's license file for the license used)
+------------------------------------------------------------------------------------------
+ahash 0.8.12 (MIT):
+    Copyright (c) 2018 Tom Kaitchuck
+aho-corasick 1.1.3 (MIT):
+    Copyright (c) 2015 Andrew Gallant
+allocator-api2 0.2.21 (MIT):
+    Copyright (c) Zakarum <zaq.dev@icloud.com>  [no copyright line in LICENSE-MIT; holder taken from Cargo.toml authors]
+base64 0.22.1 (MIT):
+    Copyright (c) 2015 Alice Maz
+bitvec 1.0.1 (MIT):
+    Copyright (c) 2018 myrrlyn (Alexander Payne)
+cfg-if 1.0.0 (MIT):
+    Copyright (c) 2014 Alex Crichton
+equivalent 1.0.2 (MIT):
+    Copyright (c) 2016--2023
+foldhash 0.2.0 (Zlib):
+    Copyright (c) 2024 Orson Peters
+form_urlencoded 1.2.2 (MIT):
+    Copyright (c) 2013-2016 The rust-url developers
+funty 2.0.0 (MIT):
+    Copyright (c) 2020 myrrlyn (Alexander Payne)
+getrandom 0.3.3 (MIT):
+    Copyright (c) 2018-2025 The rust-random Project Developers
+    Copyright (c) 2014 The Rust Project Developers
+hashbrown 0.16.1 (MIT):
+    Copyright (c) 2016 Amanieu d'Antras
+hex 0.4.3 (MIT):
+    Copyright (c) 2013-2014 The Rust Project Developers.
+    Copyright (c) 2015-2020 The rust-hex Developers
+icu_collections 1.5.0 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+icu_locid_transform_data 1.5.0 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+icu_locid_transform 1.5.0 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+icu_locid 1.5.0 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+icu_normalizer_data 1.5.0 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+icu_normalizer 1.5.0 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+icu_properties_data 1.5.0 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+icu_properties 1.5.1 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+icu_provider 1.5.0 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+idna_adapter 1.2.0 (MIT):
+    Copyright (c) The rust-url developers
+idna 1.1.0 (MIT):
+    Copyright (c) 2013-2025 The rust-url developers
+itoa 1.0.11 (MIT):
+    Copyright (c) David Tolnay <dtolnay@gmail.com>  [no copyright line in LICENSE-MIT; holder taken from Cargo.toml authors]
+jiter 0.14.0 (MIT):
+    Copyright (c) 2022 to present Samuel Colvin
+lexical-parse-float 1.0.5 (MIT):
+    Copyright (c) Alex Huszagh <ahuszagh@gmail.com>  [no copyright line in LICENSE-MIT; holder taken from Cargo.toml authors]
+lexical-parse-integer 1.0.5 (MIT):
+    Copyright (c) Alex Huszagh <ahuszagh@gmail.com>  [no copyright line in LICENSE-MIT; holder taken from Cargo.toml authors]
+lexical-util 1.0.6 (MIT):
+    Copyright (c) Alex Huszagh <ahuszagh@gmail.com>  [no copyright line in LICENSE-MIT; holder taken from Cargo.toml authors]
+libc 0.2.185 (MIT):
+    Copyright (c) The Rust Project Developers
+litemap 0.7.3 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+lru 0.16.3 (MIT):
+    Copyright (c) 2016 Jerome Froelich
+memchr 2.7.4 (MIT):
+    Copyright (c) 2015 Andrew Gallant
+num-bigint 0.4.6 (MIT):
+    Copyright (c) 2014 The Rust Project Developers
+num-integer 0.1.46 (MIT):
+    Copyright (c) 2014 The Rust Project Developers
+num-traits 0.2.19 (MIT):
+    Copyright (c) 2014 The Rust Project Developers
+once_cell 1.21.3 (MIT):
+    Copyright (c) Aleksey Kladov <aleksey.kladov@gmail.com>  [no copyright line in LICENSE-MIT; holder taken from Cargo.toml authors]
+percent-encoding 2.3.2 (MIT):
+    Copyright (c) 2013-2025 The rust-url developers
+pyo3-ffi 0.28.3 (MIT):
+    Copyright (c) 2023-present PyO3 Project and Contributors.  https://github.com/PyO3
+pyo3 0.28.3 (MIT):
+    Copyright (c) 2023-present PyO3 Project and Contributors.  https://github.com/PyO3
+radium 0.7.0 (MIT):
+    Copyright (c) 2019 kneecaw (Nika Layzell)
+regex-automata 0.4.13 (MIT):
+    Copyright (c) 2014 The Rust Project Developers
+regex-syntax 0.8.5 (MIT):
+    Copyright (c) 2014 The Rust Project Developers
+regex 1.12.3 (MIT):
+    Copyright (c) 2014 The Rust Project Developers
+serde_core 1.0.228 (MIT):
+    Copyright (c) Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>  [no copyright line in LICENSE-MIT; holder taken from Cargo.toml authors]
+serde_json 1.0.149 (MIT):
+    Copyright (c) Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>  [no copyright line in LICENSE-MIT; holder taken from Cargo.toml authors]
+serde 1.0.228 (MIT):
+    Copyright (c) Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>  [no copyright line in LICENSE-MIT; holder taken from Cargo.toml authors]
+smallvec 1.15.1 (MIT):
+    Copyright (c) 2018 The Servo Project Developers
+speedate 0.17.0 (MIT):
+    Copyright (c) 2022 Samuel Colvin
+stable_deref_trait 1.2.0 (MIT):
+    Copyright (c) 2017 Robert Grosse
+static_assertions 1.1.0 (MIT):
+    Copyright (c) 2017 Nikolai Vazquez
+strum 0.27.2 (MIT):
+    Copyright (c) 2019 Peter Glotfelty
+tap 1.0.1 (MIT):
+    Copyright (c) 2017 Elliot Linder <darfink@gmail.com>
+tinystr 0.7.6 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+url 2.5.8 (MIT):
+    Copyright (c) 2013-2025 The rust-url developers
+utf16_iter 1.0.5 (MIT):
+    Copyright Mozilla Foundation
+utf8_iter 1.0.4 (MIT):
+    Copyright Mozilla Foundation
+uuid 1.23.0 (MIT):
+    Copyright (c) 2014 The Rust Project Developers
+    Copyright (c) 2018 Ashley Mannix, Christopher Armstrong, Dylan DPC, Hunar Roop Kahlon
+write16 1.0.0 (MIT):
+    Copyright Mozilla Foundation
+writeable 0.5.5 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+wyz 0.5.1 (MIT):
+    Copyright (c) 2018 myrrlyn (Alexander Payne)
+yoke 0.7.4 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+zerocopy 0.8.25 (MIT):
+    Copyright 2023 The Fuchsia Authors
+zerofrom 0.1.4 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+zerovec 0.10.4 (Unicode-3.0):
+    Copyright © 2020-2024 Unicode, Inc.
+    ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+zmij 1.0.6 (MIT):
+    Copyright (c) David Tolnay <dtolnay@gmail.com>  [no copyright line in LICENSE-MIT; holder taken from Cargo.toml authors]
+
+==========================================================================================
+MIT License  (applies to every crate above listed as 'Used under MIT',
+together with that crate's copyright notice listed above)
+==========================================================================================
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+==========================================================================================
+Unicode License v3  (icu_*, litemap, tinystr, writeable, yoke, zerofrom, zerovec;
+verbatim LICENSE file shipped identically in each of these crates)
+==========================================================================================
+
+UNICODE LICENSE V3
+
+COPYRIGHT AND PERMISSION NOTICE
+
+Copyright © 2020-2024 Unicode, Inc.
+
+NOTICE TO USER: Carefully read the following legal agreement. BY
+DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING DATA FILES, AND/OR
+SOFTWARE, YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE
+TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT
+DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of data files and any associated documentation (the "Data Files") or
+software and any associated documentation (the "Software") to deal in the
+Data Files or Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, and/or sell
+copies of the Data Files or Software, and to permit persons to whom the
+Data Files or Software are furnished to do so, provided that either (a)
+this copyright and permission notice appear with all copies of the Data
+Files or Software, or (b) this copyright and permission notice appear in
+associated Documentation.
+
+THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF
+THIRD PARTY RIGHTS.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE
+BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA
+FILES OR SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall
+not be used in advertising or otherwise to promote the sale, use or other
+dealings in these Data Files or Software without prior written
+authorization of the copyright holder.
+
+SPDX-License-Identifier: Unicode-3.0
+
+—
+
+Portions of ICU4X may have been adapted from ICU4C and/or ICU4J.
+ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
+
+==========================================================================================
+zlib License  (foldhash 0.2.0, verbatim LICENSE)
+==========================================================================================
+
+Copyright (c) 2024 Orson Peters
+
+This software is provided 'as-is', without any express or implied warranty. In
+no event will the authors be held liable for any damages arising from the use of
+this software.
+
+Permission is granted to anyone to use this software for any purpose, including
+commercial applications, and to alter it and redistribute it freely, subject to
+the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim
+    that you wrote the original software. If you use this software in a product,
+    an acknowledgment in the product documentation would be appreciated but is
+    not required.
+
+2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source distribution.

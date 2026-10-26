@@ -1,0 +1,13 @@
+{
+  "name": "c20-frontend-web",
+  "private": true,
+  "type": "module",
+  "description": "npm side of the frontend: pins the sources vendored into web/vendor (see `just vendor-js`) and the bundler meta/build.sh runs",
+  "dependencies": {
+    "fzstd": "0.1.1",
+    "node-seal": "7.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

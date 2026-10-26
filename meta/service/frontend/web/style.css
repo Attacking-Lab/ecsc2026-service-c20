@@ -1,0 +1,878 @@
+@font-face {
+  font-family: "Tiny5";
+  src: url("/fonts/Tiny5-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --font-pixel: "Tiny5", monospace;
+  --ui-scale: 2; /* in-game HUD scale; fixed, so zooming doesn't blow up the chrome */
+  --world-scale: 2; /* fallback only: game.js publishes the real value from its zoom at startup */
+  /* Candlelit tavern / arcane table: warm wood and stone, parchment text,
+     candle-gold accent, with a faint arcane teal for the crypto flourishes. */
+  --bg: #1a130d;
+  --bg-2: #241a12;
+  --panel: #2c2016;
+  --line: #4a3827;
+  --text: #f3e7cf;
+  --muted: #b89b74;
+  --accent: #e8b64a;
+  --accent-2: #b5842a;
+  --arcane: #74d3c4;
+  --danger: #c65a3f;
+  --ink: #120c08; /* near-black outline the pixel-art panels and buttons are drawn with */
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; height: 100%; }
+
+body {
+  font-family: var(--font-pixel);
+  color: var(--text);
+  background: #0f0a07;
+  overflow: hidden;
+}
+
+/* Form controls and the monospace elements (code/kbd/pre) don't inherit the
+   page font on their own — without this, code like /help falls back to the
+   browser's monospace instead of Tiny5. */
+button, select, input, textarea, kbd, code, pre, samp { font-family: inherit; }
+
+/* ---- game stage ---- */
+#stage { position: fixed; inset: 0; }
+
+#game {
+  display: block;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background: #0f0a07;
+}
+
+/* No game or world HUD behind the connect screen; hides what a disconnect leaves behind. */
+#stage[data-scene="landing"] :is(#game, #game-overlay, #chat, #scene-banner, #speech-bubbles, #nameplates, #lobby-banner) { visibility: hidden; }
+
+#game-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Bottom-corner HUD chips: controls hint (left), connection badge (right). */
+#hint, #conn {
+  position: absolute;
+  bottom: 12px;
+  display: flex;
+  align-items: center;
+  /* Lock both corner chips to one height; the kbd keycap borders would
+     otherwise grow the left chip's line box past the right one's. */
+  height: 23px;
+  color: var(--muted);
+  font-family: var(--font-pixel);
+  font-size: 11px;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 5px 10px;
+  pointer-events: none;
+  transform: scale(var(--ui-scale));
+}
+#hint {
+  left: 14px;
+  transform-origin: left bottom;
+  /* Flex centers the kbd boxes on the text; pre keeps the spaces around them,
+     which flex would otherwise trim from each text run. */
+  white-space: pre;
+}
+
+/* ---- chat ---- */
+#chat {
+  position: absolute;
+  left: 14px;
+  bottom: 76px; /* clear the 2x-scaled controls hint */
+  width: 360px;
+  max-width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 3;
+  transform: scale(var(--ui-scale));
+  transform-origin: left bottom;
+  /* Closed chat is a passive HUD readout; it must not eat clicks meant for the
+     world or the map editor's tiles underneath it. Children re-enable pointer
+     events only while chat is open. */
+  pointer-events: none;
+}
+.chat-log {
+  display: flex;
+  flex-direction: column;
+  max-height: 168px;
+  /* Closed chat is a HUD element: no scrollbar, but chat.js still scrolls it. */
+  overflow: hidden;
+}
+/* Each line carries its own dark strip, so closed chat shows only the rows in
+   use and they butt together into one panel (no gap). */
+.chat-line {
+  font-family: var(--font-pixel);
+  font-size: 11px;
+  line-height: 1.35;
+  padding: 1px 5px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.55);
+  word-break: break-word;
+  transition: opacity 0.6s ease;
+}
+/* While chat is open, show the whole history regardless of age, on one
+   continuous panel that stays put while the lines scroll under it. */
+.chat-log.chat-active {
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.55);
+  pointer-events: auto;
+}
+.chat-log.chat-active .chat-line { opacity: 1 !important; background: none; }
+/* Square, bevelled thumb to match the pixel art; 6px here is 12px on screen
+   because #chat is scaled by --ui-scale. The campaign list is unscaled. */
+.chat-log::-webkit-scrollbar { width: 6px; }
+.lobby-list::-webkit-scrollbar { width: 12px; }
+.chat-log::-webkit-scrollbar-button, .lobby-list::-webkit-scrollbar-button { display: none; }
+.chat-log::-webkit-scrollbar-track, .lobby-list::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.5); }
+.chat-log::-webkit-scrollbar-thumb, .lobby-list::-webkit-scrollbar-thumb {
+  background: var(--muted);
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.35),
+    inset -1px -1px 0 rgba(0, 0, 0, 0.55);
+}
+.lobby-list::-webkit-scrollbar-thumb {
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.35),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.55);
+}
+.chat-log::-webkit-scrollbar-thumb:hover, .lobby-list::-webkit-scrollbar-thumb:hover { background: var(--text); }
+/* Firefox has no scrollbar pseudo-elements; setting these in Chrome would make
+   it drop the styling above and draw a stock scrollbar instead. */
+@supports not selector(::-webkit-scrollbar-thumb) {
+  .chat-log, .lobby-list {
+    scrollbar-width: thin;
+    scrollbar-color: var(--muted) rgba(0, 0, 0, 0.5);
+  }
+}
+#chat-input {
+  font-family: var(--font-pixel);
+  font-size: 11px;
+  padding: 3px 5px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.55);
+  border: 0;
+  outline: none;
+  pointer-events: auto;
+}
+#chat-input.hidden { display: none; }
+
+/* ---- speech bubbles (stacked above the player, newest nearest the head) ---- */
+#speech-bubbles {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+#speech-bubbles.hidden { display: none; }
+/* One stack per speaker, anchored above their head each frame. */
+.bubble-stack {
+  position: absolute;
+  transform: translate(-50%, calc(-100% - 10px)) scale(var(--world-scale));
+  transform-origin: bottom center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.bubble-stack.hidden { display: none; }
+.speech-bubble {
+  position: relative;
+  max-width: 210px;
+  padding: 1px 9px 2px;
+  background: #f4e6c6;
+  color: #2a1d10;
+  border: 3px solid #2a1d10;
+  box-shadow: 3px 3px 0 rgba(18, 12, 8, 0.5);
+  font-family: var(--font-pixel);
+  font-size: 19px;
+  line-height: 1.05;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+.speech-bubble.fade { opacity: 0; }
+/* Clamp the text here so the bubble's own overflow stays visible for the tail. */
+.speech-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+/* Cartoon tail only on the newest (bottom) bubble. */
+.speech-bubble:last-child::before,
+.speech-bubble:last-child::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%);
+}
+.speech-bubble:last-child::before {
+  bottom: -12px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid #2a1d10;
+}
+.speech-bubble:last-child::after {
+  bottom: -6px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid #f4e6c6;
+}
+/* A whisper: an ordinary bubble whose text is garbled glyphs that wave and
+   keep reshuffling (chat.js), so everyone sees a whisper happen but not its
+   words. */
+.speech-bubble.whisper .whisper-text { letter-spacing: 2px; }
+.whisper-text .gc {
+  display: inline-block;
+  color: #7a5f3a;
+  animation: whisper-wave 0.7s ease-in-out infinite;
+}
+@keyframes whisper-wave {
+  0%, 100% { transform: translateY(2px); }
+  50% { transform: translateY(-2px); }
+}
+
+/* ---- lobby (the guild hall) ---- */
+#lobby-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+#lobby-overlay.hidden { display: none; }
+/* One label per hall marker, anchored above it and tracking the zoom the way
+   speech bubbles do (game.js positions it each frame). */
+.lobby-station {
+  position: absolute;
+  transform: translate(-50%, -100%) scale(var(--world-scale));
+  transform-origin: bottom center;
+  min-width: 68px;
+  padding: 2px 7px 3px;
+  text-align: center;
+  background: rgba(10, 11, 18, 0.82);
+  border: 2px solid var(--line);
+  font-family: var(--font-pixel);
+  text-shadow: 1px 1px 0 #000;
+  white-space: nowrap;
+}
+.lobby-station.hidden { display: none; }
+.lobby-station .ls-name { font-size: 15px; color: #fff; }
+.lobby-station .ls-meta { font-size: 12px; color: var(--muted); }
+.lobby-station.empty { opacity: 0.5; }
+.lobby-station.empty .ls-name { color: var(--muted); }
+/* The marker the player is standing at. */
+.lobby-station.near {
+  border-color: var(--accent);
+  background: rgba(46, 58, 110, 0.92);
+}
+.lobby-station.near .ls-meta { color: var(--accent); }
+
+#lobby-banner {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--ui-scale));
+  transform-origin: top center;
+  padding: 5px 12px;
+  background: rgba(10, 11, 18, 0.8);
+  border: 2px solid var(--ink);
+  color: var(--muted);
+  font-family: var(--font-pixel);
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 5;
+}
+#lobby-banner.hidden { display: none; }
+#lobby-banner code { color: var(--accent); }
+
+/* ---- radial (hold-R) animation menu ---- */
+#radial {
+  position: absolute;
+  z-index: 6;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  transform: scale(var(--ui-scale)); /* origin is the 0×0 element's point = the cursor */
+}
+#radial.hidden { display: none; }
+#radial::before { /* centre hub */
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 14px;
+  height: 14px;
+  transform: translate(-50%, -50%);
+  border: 2px solid var(--line);
+  border-radius: 50%;
+  background: rgba(10, 11, 18, 0.85);
+}
+.radial-item {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 4px 9px;
+  font-family: var(--font-pixel);
+  font-size: 15px;
+  color: #fff;
+  background: rgba(10, 11, 18, 0.85);
+  border: 2px solid var(--line);
+  white-space: nowrap;
+  text-shadow: 1px 1px 0 #000;
+}
+.radial-item.active {
+  border-color: var(--accent);
+  background: var(--accent-2);
+}
+
+kbd {
+  background: var(--bg-2);
+  border: 2px solid var(--ink);
+  border-radius: 0;
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.12), inset -1px -1px 0 rgba(0, 0, 0, 0.4);
+  padding: 0 5px;
+  font-size: 0.92em;
+}
+
+/* Everyone's words read the same; the name in front is what tells them apart. */
+.chat-name { color: var(--accent); }
+.chat-line.system { color: var(--muted); }
+.chat-line.whisper { color: var(--arcane); }
+.chat-line.whisper .chat-name { color: var(--arcane); }
+
+.status { position: absolute; top: 10px; left: 14px; color: var(--muted); font-size: 12px; pointer-events: none; transform: scale(var(--ui-scale)); transform-origin: left top; }
+
+/* ---- connection heartbeat (bottom-right) ---- */
+#conn {
+  right: 14px;
+  z-index: 5;
+  transform-origin: right bottom;
+}
+#conn.hidden { display: none; }
+/* The open Guild Hall panel runs the full right edge; sit beside it instead. */
+/* Tiny5 has no check glyph, so it is drawn on the font's own pixel grid: one
+   font pixel is 128/1024 em, and caps are 5 pixels tall. */
+.conn-check { width: 0.875em; height: 0.625em; margin-right: 0.5em; fill: currentColor; shape-rendering: crispEdges; }
+#conn.lost .conn-check { display: none; }
+/* Three fixed dots fading in one by one, so the badge never changes width. */
+.conn-dots i { font-style: normal; animation: 1.2s steps(1, end) infinite; }
+.conn-dots i:nth-child(1) { animation-name: conn-dot-1; }
+.conn-dots i:nth-child(2) { animation-name: conn-dot-2; }
+.conn-dots i:nth-child(3) { animation-name: conn-dot-3; }
+@keyframes conn-dot-1 { 0% { opacity: 0; } 25% { opacity: 1; } }
+@keyframes conn-dot-2 { 0% { opacity: 0; } 50% { opacity: 1; } }
+@keyframes conn-dot-3 { 0% { opacity: 0; } 75% { opacity: 1; } }
+#conn.online .conn-dots { display: none; }
+.conn-addr { margin-left: 0.5em; }
+.conn-addr:not(:empty)::before { content: "· "; }
+
+/* ---- overlays ---- */
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 11, 18, 0.72);
+  /* Above the world HUD (z-index up to 6) so its dim covers the lobby labels,
+     banner and chat like a modal instead of leaving them lit on top. */
+  z-index: 10;
+}
+.overlay.hidden { display: none; }
+
+/* Pixel-art panel: square, drawn with the ink outline and a hard offset shadow,
+   the way the speech bubbles are. */
+.menu-box, .creator-box, .picker-box, .help-box {
+  background: var(--panel);
+  border: 3px solid var(--ink);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 rgba(10, 11, 18, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.menu-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 26px 30px;
+  min-width: 260px;
+  text-align: center;
+}
+.menu-box h2 { margin: 0 0 8px; font-size: 28px; letter-spacing: 1px; }
+.menu-hint { margin: 4px 0 0; color: var(--muted); font-size: 16px; }
+
+/* ---- help / controls ---- */
+.help-box {
+  width: min(720px, 94vw);
+  max-height: 90vh;
+  overflow: auto;
+  padding: 18px 24px 20px;
+  font-size: 17px;
+}
+.help-box header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.help-box h2 { margin: 0; font-size: 26px; letter-spacing: 1px; }
+#help-close { padding: 4px 10px; }
+/* Opened from the landing screen too, so it sits above .screen (20); below the veil. */
+#help { z-index: 25; }
+.help-cols { display: flex; gap: 26px; flex-wrap: wrap; }
+.help-cols section { flex: 1 1 270px; min-width: 250px; }
+.help-cols h3 { margin: 0 0 8px; font-size: 18px; color: var(--accent); }
+.help-box dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 6px 14px;
+  margin: 0;
+  align-items: baseline;
+}
+.help-box dt { white-space: nowrap; }
+.help-box dd { margin: 0; color: var(--muted); }
+.help-box code { color: var(--accent); }
+.help-box .menu-hint { text-align: center; margin-top: 16px; }
+
+/* ---- creator ---- */
+.creator-box {
+  width: min(960px, 94vw);
+  max-height: 94vh;
+  overflow: auto;
+  padding: 18px 22px 22px;
+}
+.creator-box header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.creator-box h1 { margin: 0; font-size: 24px; }
+
+.cc-main { display: flex; gap: 22px; flex-wrap: wrap; align-items: flex-start; }
+
+.cc-stage { display: flex; flex-direction: column; gap: 12px; align-items: center; }
+
+.preview-frame {
+  position: relative;
+  padding: 24px 34px;
+  /* The room behind the character, all from the Japanese interiors sheet: a
+     shoji screen wall across the top (wood lintel over paper panels) above a
+     tatami floor. Crisp, not blurred. */
+  background-color: #2a2018;
+  background-image:
+    url("/tile/20_Japanese_interiors.png/9/10"),
+    url("/tile/20_Japanese_interiors.png/9/11"),
+    url("/tile/20_Japanese_interiors.png/0/2");
+  background-repeat: repeat-x, repeat-x, repeat;
+  background-position: left top, left 96px, left top;
+  background-size: 96px 96px;
+  image-rendering: pixelated;
+  border: 3px solid var(--ink);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.25);
+}
+.frame-counter {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  z-index: 2;
+  padding: 2px 7px;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+#cc-preview {
+  display: block;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  position: relative;
+  z-index: 1;
+}
+
+.stage-controls { display: flex; flex-direction: column; gap: 10px; align-items: center; }
+.dir-buttons { display: flex; gap: 6px; }
+.row { display: flex; gap: 6px; align-items: center; }
+.stage-controls select { width: auto; padding: 8px 10px; }
+
+.speed-row { width: 100%; }
+.speed-row label { color: var(--muted); font-size: 15px; }
+.speed-row input[type="range"] { flex: 1; accent-color: var(--accent); }
+#cc-speed-val { color: var(--muted); font-size: 15px; min-width: 40px; text-align: right; }
+
+.panel { flex: 1 1 320px; min-width: 300px; display: flex; flex-direction: column; gap: 20px; }
+.controls { display: flex; flex-direction: column; gap: 16px; }
+.control-row {
+  display: grid;
+  grid-template-columns: 104px 34px 1fr 34px;
+  gap: 8px;
+  align-items: center;
+}
+.control-row label { color: var(--muted); font-size: 16px; }
+
+select, #tile-search, input[type="number"], input[type="text"], input[type="search"] {
+  background: var(--bg-2);
+  color: var(--text);
+  border: 2px solid var(--ink);
+  border-radius: 0;
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.35);
+}
+select {
+  width: 100%;
+  padding: 7px 9px;
+  font-size: 16px;
+}
+
+/* Raised pixel button: ink outline, a light top-left / dark bottom-right bevel
+   and a hard drop shadow it sinks into when pressed. */
+button {
+  cursor: pointer;
+  background: var(--bg-2);
+  color: var(--text);
+  border: 2px solid var(--ink);
+  border-radius: 0;
+  padding: 8px 12px;
+  font-size: 17px;
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.12),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.4), 3px 3px 0 rgba(10, 11, 18, 0.35);
+  transition: background 0.1s;
+}
+button:hover { background: #3a2a1b; }
+button:active {
+  transform: translate(3px, 3px);
+  box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.35);
+}
+button.arrow { padding: 6px 0; font-size: 16px; line-height: 1; }
+button.active {
+  background: var(--accent-2);
+  box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.35);
+}
+button:disabled { opacity: 0.35; cursor: default; }
+button:disabled:hover { background: var(--bg-2); }
+button.primary { background: var(--accent-2); }
+button.primary:hover { background: var(--accent); }
+
+.panel-actions { display: flex; gap: 10px; }
+.panel-actions button { flex: 1; }
+
+/* ---- debug map editor ---- */
+#debug-bar {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: rgba(20, 21, 31, 0.92);
+  border: 2px solid var(--ink);
+  box-shadow: 3px 3px 0 rgba(10, 11, 18, 0.4);
+  z-index: 5;
+  flex-wrap: wrap;
+  max-width: 96vw;
+}
+#debug-bar.hidden { display: none; }
+#debug-bar .ed-title { font-weight: 600; font-size: 13px; color: var(--muted); }
+#debug-bar .ed-group { display: flex; gap: 4px; }
+#debug-bar button { padding: 6px 10px; font-size: 13px; }
+.ed-selected {
+  image-rendering: pixelated;
+  border: 2px solid var(--ink);
+  background: #0f0a07;
+}
+.ed-status { font-size: 12px; color: var(--muted); min-width: 120px; }
+.ed-lbl { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--muted); }
+.ed-lbl input[type="number"] {
+  width: 46px;
+  padding: 5px 6px;
+}
+.ed-lbl input[type="range"] { width: 90px; accent-color: var(--accent); }
+#ed-peel-val { min-width: 16px; text-align: right; color: var(--text); }
+#ed-chair { align-items: center; gap: 6px; }
+#ed-chair.hidden { display: none; }
+#ed-chair-dir { width: auto; padding: 5px 6px; font-size: 12px; }
+
+.picker-box {
+  width: min(1040px, 96vw);
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 18px;
+}
+.picker-box header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.picker-box h2 { margin: 0; font-size: 22px; }
+.picker-box header { gap: 10px; }
+#tile-search {
+  flex: 1;
+  padding: 7px 10px;
+  font-size: 16px;
+}
+#tile-set { width: auto; max-width: 220px; }
+.tile-count { color: var(--muted); font-size: 14px; white-space: nowrap; }
+.tile-hover { flex: 1; min-width: 0; color: var(--accent); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 56px);
+  gap: 8px;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+.tile-sheet {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  background: #0f0a07;
+  border: 2px solid var(--ink);
+}
+.sheet-wrap { position: relative; }
+.sheet-img {
+  display: block;
+  image-rendering: pixelated;
+  width: 100%;
+  height: 100%;
+}
+.sheet-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid var(--accent);
+  box-sizing: border-box;
+  pointer-events: none;
+}
+/* A tile swatch is a <button>, but in the grid it should read as a plain
+   framed thumbnail, not a raised button. */
+.tile-swatch {
+  padding: 3px;
+  line-height: 0;
+  background: #0f0a07;
+  border: 2px solid var(--ink);
+  box-shadow: none;
+}
+.tile-swatch img { image-rendering: pixelated; }
+.tile-swatch:hover { background: #0f0a07; border-color: var(--accent); }
+.tile-swatch:active { transform: none; box-shadow: none; }
+/* Checkered backdrop so black and transparent tile pixels stay visible; the
+   picker's background toggle switches it on (#tile-picker and the thumbnail). */
+.checker-bg .tile-swatch,
+.checker-bg .tile-swatch:hover,
+.checker-bg .sheet-wrap,
+.ed-selected.checker-bg {
+  background: repeating-conic-gradient(#8a8a8a 0 25%, #5e5e5e 0 50%) 0 0 / 16px 16px;
+}
+#tile-bg { white-space: nowrap; }
+
+/* ========================================================================
+   Cohesive flow: landing → Guild Hall → the table
+   ======================================================================== */
+
+/* Warm candlelight vignette over the game room (not the lobby, not menus). */
+#ambience {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    radial-gradient(120% 90% at 50% 46%, rgba(0, 0, 0, 0) 38%, rgba(12, 7, 3, 0.55) 100%),
+    radial-gradient(70% 55% at 50% 44%, rgba(232, 182, 74, 0.10) 0%, rgba(232, 182, 74, 0) 60%);
+  mix-blend-mode: normal;
+  transition: opacity 0.5s ease;
+}
+#ambience.hidden { display: none; }
+
+/* ---- danger / size variants ---- */
+button.danger { background: #5a2a20; }
+button.danger:hover { background: var(--danger); }
+button.big { padding: 12px 16px; font-size: 20px; }
+button.wide { width: 100%; }
+
+/* ---- full-screen screens (landing) ---- */
+.screen {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+.screen.hidden { display: none; }
+
+#landing .landing-scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(90% 70% at 50% 28%, rgba(45, 30, 16, 0.55) 0%, rgba(15, 10, 7, 0.86) 62%, rgba(10, 6, 3, 0.96) 100%);
+}
+.landing-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding: 40px 24px;
+  width: min(460px, 92vw);
+  text-align: center;
+}
+.brand { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.brand-mark {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 44px;
+  letter-spacing: 6px;
+  color: var(--accent);
+  text-shadow: 2px 2px 0 #120c08;
+}
+.brand-logo { width: 56px; height: 56px; filter: drop-shadow(3px 3px 0 rgba(10, 7, 3, 0.6)); }
+.brand-title { margin: 8px 0 0; font-size: 30px; letter-spacing: 2px; text-shadow: 2px 2px 0 #120c08; }
+.brand-tag { margin: 0; max-width: 34ch; color: var(--muted); font-size: 15px; line-height: 1.4; }
+
+.connect-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  background: var(--panel);
+  border: 3px solid var(--ink);
+  box-shadow: 4px 4px 0 rgba(10, 7, 3, 0.55), inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+.field { display: flex; flex-direction: column; gap: 5px; text-align: left; }
+.field-label { font-size: 14px; color: var(--muted); letter-spacing: 1px; }
+.field input { padding: 10px 11px; font-size: 17px; }
+.landing-status { margin: 2px 0 0; min-height: 18px; font-size: 14px; color: var(--muted); }
+.landing-status.error { color: var(--danger); }
+.landing-status.busy { color: var(--accent); }
+.landing-actions { display: flex; gap: 10px; }
+.landing-actions button { flex: 1; }
+
+/* ---- pause menu (reuses .menu-box) ---- */
+.menu-box button { width: 100%; }
+
+/* ---- Guild Hall reception (every campaign) and new-campaign dialogs ---- */
+.rooms-box { display: flex; flex-direction: column; width: min(460px, 94vw); height: min(560px, 86vh); overflow: hidden; }
+.lobby-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 2px 4px 2px 2px;
+}
+#create-name, #rooms-search { padding: 10px 11px; font-size: 17px; }
+#rooms-search { margin-bottom: 10px; }
+#create-name.nc-bad { border-color: var(--danger); }
+
+.room-card {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 9px 11px;
+  font-size: 15px;
+  background: var(--bg-2);
+}
+.room-card:hover { background: #3a2a1b; }
+.room-card .rc-top { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.room-card .rc-name { color: var(--text); font-size: 17px; }
+.room-card .rc-players { color: var(--accent); font-size: 13px; white-space: nowrap; }
+.room-card .rc-meta { color: var(--muted); font-size: 12px; }
+.lobby-empty { color: var(--muted); font-size: 14px; padding: 10px 2px; text-align: center; }
+
+/* ---- scene banner (announces Guild Hall / a campaign on entry) ---- */
+#scene-banner {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  pointer-events: none;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+#scene-banner.show { opacity: 1; }
+#scene-banner.hidden { display: none; }
+#scene-banner .sb-title {
+  font-size: 34px;
+  letter-spacing: 3px;
+  color: var(--accent);
+  text-shadow: 2px 2px 0 #120c08, 0 0 18px rgba(232, 182, 74, 0.35);
+}
+#scene-banner .sb-sub { font-size: 15px; color: var(--text); text-shadow: 1px 1px 0 #120c08; }
+
+/* ---- transition veil ---- */
+#veil {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  background: #0f0a07;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.28s ease;
+}
+#veil.show { opacity: 1; pointer-events: all; }
+
+#hint.hidden { display: none; }
+
+/* A username rides over each seated party member in the campaign room (the DM's
+   carries a trailing "*"). Below the speech bubbles (z-index 4) so a bubble is
+   never hidden behind a plate. */
+.nameplates {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+.nameplate {
+  position: absolute;
+  transform: translate(-50%, -100%) scale(var(--world-scale));
+  transform-origin: bottom center;
+  font-family: var(--font-pixel);
+  font-size: 12px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  color: var(--accent);
+  /* a dark bar behind the name keeps it readable over any floor */
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0 3px;
+  line-height: 14px;
+}
+.nameplate.hidden { display: none; }
+
+/* A hall marker brightens as you approach; Enter there uses it. */
+.lobby-station.empty.near { opacity: 1; }
+.lobby-station.empty.near .ls-name { color: var(--accent); }
+.room-card:focus-visible { outline: none; border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+
+/* Character creator: advanced controls (export, animation knobs, speed, frame
+   counter) show only in debug mode; normal players get name, parts and a
+   direction toggle. */
+.creator-box:not(.debug) .cc-debug-only { display: none; }
+.cc-name { margin: 0; }

@@ -1,0 +1,11 @@
+FROM emscripten/emsdk:4.0.17
+
+ADD https://github.com/facebook/zstd/releases/download/v1.5.6/zstd-1.5.6.tar.gz /build/zstd.tar.gz
+
+WORKDIR /build
+
+RUN tar xzf zstd.tar.gz && mv zstd-1.5.6 zstd
+
+COPY . /build
+
+RUN make wasm

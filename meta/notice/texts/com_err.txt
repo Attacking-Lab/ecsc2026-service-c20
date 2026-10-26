@@ -1,0 +1,66 @@
+This package, the EXT2 filesystem utilities, are made available under
+the GNU Public License version 2, with the exception of the lib/ext2fs
+and lib/e2p libraries, which are made available under the GNU Library
+General Public License Version 2, the lib/uuid library which is made
+available under a BSD-style license and the lib/et and lib/ss
+libraries which are made available under an MIT-style license.  Please
+see lib/uuid/COPYING for more details for the license for the files
+comprising the libuuid library, and the source file headers of the
+libet and libss libraries for more information.
+
+==============================================================================
+lib/et/com_err.c (same terms in error_message.c, et_name.c, init_et.c)
+==============================================================================
+
+Copyright 1987, 1988 by MIT Student Information Processing Board.
+
+Permission to use, copy, modify, and distribute this software and
+its documentation for any purpose is hereby granted, provided that
+the names of M.I.T. and the M.I.T. S.I.P.B. not be used in
+advertising or publicity pertaining to distribution of the software
+without specific, written prior permission.  M.I.T. and the
+M.I.T. S.I.P.B. make no representations about the suitability of
+this software for any purpose.  It is provided "as is" without
+express or implied warranty.
+
+==============================================================================
+lib/et/com_right.c
+==============================================================================
+
+com_right.c -- provide Heimdall / Kerberos4kth com_err interfaces
+	for backwards compatbility
+
+Copyright (c) 2003 by Theodore Ts'o
+
+Taken from lib/com_err/error.c from Kerberos4kth distribution.
+
+Copyright (c) 1997, 1998, 2001 Kungliga Tekniska Högskolan
+(Royal Institute of Technology, Stockholm, Sweden).
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the Institute nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE INSTITUTE AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.

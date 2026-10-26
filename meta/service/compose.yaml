@@ -1,0 +1,74 @@
+name: c20
+services:
+  app:
+    image: "${APP_IMAGE:-c20-app}"
+    build:
+      context: .
+    ports:
+      - "${SERVICE_PORT:-9000}:${SERVICE_PORT:-9000}"
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      SERVICE_PORT: "${SERVICE_PORT:-9000}"
+      DB_POOL_SIZE: "2"
+      DB_MAX_OVERFLOW: "1"
+      WEB_CONCURRENCY: "${WEB_CONCURRENCY:-3}"
+      WEB_THREADS: "${WEB_THREADS:-4}"
+      CLEANUP_TTL: "1200"
+      REDIS_URL: redis://redis:6379/0
+      # Empty disables saving outright: no key unlocks it, so the map editor
+      # is read-only until an operator exports C20_ADMIN_PSK.
+      C20_ADMIN_PSK: ${C20_ADMIN_PSK:-}
+    volumes:
+      # Saved map edits and the generated session secret live here; without it
+      # they die with the container (and every login with them).
+      - roomdata:/app/data
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import os, urllib.request; port = os.environ.get('SERVICE_PORT', '9000'); urllib.request.urlopen(f'http://localhost:{port}/c20/health'); urllib.request.urlopen(f'http://localhost:{port}/api/manifest')"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
+      start_interval: 1s
+
+  db:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: flaskdb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "user", "-d", "flaskdb"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
+      start_interval: 1s
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    # Ephemeral presence only; no persistence needed.
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+      start_period: 2s
+      start_interval: 1s
+
+volumes:
+  pgdata:
+  roomdata:
+
+networks:
+  default:
+    name: c20

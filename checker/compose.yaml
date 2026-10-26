@@ -1,0 +1,50 @@
+name: c20-checker
+services:
+  c20-checker:
+    container_name: c20-checker
+    build:
+      context: .
+    ports:
+      - "${CHECKER_PORT:-8000}:8000"
+    restart: unless-stopped
+    environment:
+      - SERVICE_PORT=${SERVICE_PORT:-9000}
+      - MONGO_ENABLED=1
+      - MONGO_HOST=c20-mongo
+      - MONGO_PORT=7777
+      - MONGO_USER=c20_checker
+      - MONGO_PASSWORD=c20_checker
+    depends_on:
+      c20-mongo:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/service')"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
+      start_interval: 1s
+  c20-mongo:
+    container_name: c20-mongo
+    image: mongo
+    command: mongod --port 7777
+    restart: unless-stopped
+    volumes:
+      - mongodb-data:/data/db
+    ports:
+      - 7777:7777
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: c20_checker
+      MONGO_INITDB_ROOT_PASSWORD: c20_checker
+    healthcheck:
+      test: ["CMD", "mongosh", "--port", "7777", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
+      start_interval: 1s
+networks:
+  default:
+    name: c20-checker
+volumes:
+  mongodb-data:

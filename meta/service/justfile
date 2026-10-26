@@ -1,0 +1,30 @@
+# Build and start the unified application on :9000.
+up *args:
+    docker compose up --build -d {{args}}
+
+# Stop the stack, keeping the database
+down:
+    docker compose down
+
+# Stop the stack and drop the database with it
+clean:
+    docker compose down -v
+
+# Follow the container logs
+logs *args:
+    docker compose logs -f {{args}}
+
+# Same stack with the dev overlay: `just dev up --build -d`, `just dev logs -f`
+dev *args:
+    docker compose -f compose.yaml -f compose.dev.yaml {{args}}
+
+# Show what is running
+ps:
+    docker compose ps
+
+# Build and start, wait for every healthcheck, then tear it back down
+smoke:
+    docker compose up --build -d --wait
+    docker compose down
+
+mod frontend

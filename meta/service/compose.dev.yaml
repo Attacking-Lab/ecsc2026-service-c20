@@ -1,0 +1,23 @@
+# Dev overlay: `just dev up --build -d`. Mounts the sources into the running
+# container so edits land without a rebuild, and keeps a game around long
+# enough to work on it.
+#
+# Uvicorn reloads the unified application on Python edits.
+services:
+  app:
+    environment:
+      WEB_CONCURRENCY: "1"
+      C20_RELOAD: "1"
+      CLEANUP_TTL: "3600"
+      # Editor saves write the committed rooms.json, so map edits land in git.
+      C20_ROOM_OVERRIDE: /app/rooms.json
+    volumes:
+      - ./backend:/app/backend
+      - ./frontend/src:/app/src
+      - ./frontend/web:/app/web
+      - ./frontend/vendor:/app/vendor
+      - ./frontend/rooms.json:/app/rooms.json
+
+  db:
+    ports:
+      - "5432:5432"

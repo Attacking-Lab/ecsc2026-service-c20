@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>C20: Crypts &amp; Crypto</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="stage" data-scene="landing">
+    <canvas id="game"></canvas>
+    <canvas id="game-overlay"></canvas>
+
+    <!-- Warm tabletop ambience drawn over the game room only -->
+    <div id="ambience" class="hidden"></div>
+
+    <!-- Lobby: the walkable Guild Hall -->
+    <div id="lobby-overlay" class="hidden"></div>
+    <div id="lobby-banner" class="hidden"></div>
+
+    <!-- Guild Hall reception: every campaign, newest first -->
+    <div id="rooms" class="overlay hidden">
+      <div class="help-box rooms-box">
+        <header>
+          <h2>Campaigns</h2>
+          <button id="rooms-close">✕</button>
+        </header>
+        <input id="rooms-search" type="search" placeholder="Search campaigns…" autocomplete="off" spellcheck="false" />
+        <div id="rooms-list" class="lobby-list"></div>
+        <p class="menu-hint">type to search · <kbd>↑</kbd><kbd>↓</kbd> choose · <kbd>Enter</kbd> join · <kbd>Esc</kbd> close</p>
+      </div>
+    </div>
+
+    <!-- Guild Hall style display: name the new campaign -->
+    <div id="create" class="overlay hidden">
+      <div class="menu-box">
+        <h2>New <span id="create-style"></span> campaign</h2>
+        <input id="create-name" type="text" maxlength="64" autocomplete="off" spellcheck="false" placeholder="Campaign name" />
+        <div class="panel-actions">
+          <button id="create-go" class="primary">Create</button>
+          <button id="create-cancel">Cancel</button>
+        </div>
+        <p class="menu-hint"><kbd>Enter</kbd> create · <kbd>Esc</kbd> cancel</p>
+      </div>
+    </div>
+
+    <div id="speech-bubbles" class="hidden"></div>
+    <div id="nameplates" class="nameplates"></div>
+    <div id="radial" class="hidden"></div>
+    <div id="chat">
+      <div id="chat-log" class="chat-log"></div>
+      <input id="chat-input" class="hidden" type="text" maxlength="200" autocomplete="off"
+             placeholder="Say something…" />
+    </div>
+    <div id="hint" class="hidden"><kbd>WASD</kbd> move · <kbd>T</kbd> chat · <kbd>?</kbd> help</div>
+    <p id="status" class="status"></p>
+    <div id="conn" class="hidden">
+      <svg class="conn-check" viewBox="0 0 7 5" aria-hidden="true"><path d="M6 0h1v1H6zM5 1h1v1H5zM0 2h1v1H0zM4 2h1v1H4zM1 3h1v1H1zM3 3h1v1H3zM2 4h1v1H2z" /></svg>
+      <span class="conn-label">connected</span><span class="conn-dots" aria-hidden="true"><i>.</i><i>.</i><i>.</i></span>
+      <span class="conn-addr"></span>
+    </div>
+
+    <!-- A transient banner announcing the scene you just entered -->
+    <div id="scene-banner" class="hidden"><span class="sb-title"></span><span class="sb-sub"></span></div>
+
+    <!-- Debug map editor -->
+    <div id="debug-bar" class="hidden">
+      <span class="ed-title">Map editor</span>
+      <span class="ed-group">
+        <button data-edmode="tile" title="T">Tile</button>
+        <button data-edmode="select" title="S">Select</button>
+        <button data-edmode="collision">Collision</button>
+        <button data-edmode="spawn">Spawn</button>
+      </span>
+      <button id="ed-tiles" title="Shift+T">Tiles… <kbd>⇧T</kbd></button>
+      <img id="ed-selected" class="ed-selected" width="28" height="28" alt="tile" />
+      <label class="ed-lbl" title="Active layer (shift+scroll over the map)">z <input id="ed-z" type="number" value="10" min="0" max="20" /></label>
+      <span id="ed-chair" class="ed-group hidden" title="Chair: the selected tiles on the active layer seat a player who sits next to them">
+        <button id="ed-chair-toggle">Chair</button>
+        <label class="ed-lbl" title="Seat height: px from the tile's top to the sitter's feet">y <input id="ed-chair-y" type="number" value="14" min="-32" max="48" /></label>
+        <select id="ed-chair-dir" title="Way the sitter faces">
+          <option value="down">↓ down</option>
+          <option value="up" title="Facing away, drawn a layer below the chair so its back hides the body">↑ up (below)</option>
+          <option value="up-above" title="Facing away, drawn a layer above the chair">↑ up (above)</option>
+          <option value="up-flat" title="Facing away, drawn a layer above the seat and cut off at the waist; y is where the waist sits">↑ up (flat)</option>
+          <option value="left">← left</option><option value="right">→ right</option>
+        </select>
+        <select id="ed-act" title="Special activation: Enter next to the selected tiles on the active layer runs it (activations.js)">
+          <option value="">no activation</option>
+        </select>
+      </span>
+      <label class="ed-lbl" title="Hide layers above this (alt+scroll)">show&nbsp;≤&nbsp;<input id="ed-peel" type="range" min="0" max="20" value="20" /><span id="ed-peel-val">20</span></label>
+      <span class="ed-group">
+        <button id="ed-undo" title="Undo (Ctrl+Z)">↶</button>
+        <button id="ed-redo" title="Redo (Ctrl+Shift+Z or Ctrl+Y)">↷</button>
+      </span>
+      <span class="ed-group">
+        <button id="ed-save" class="primary">Save</button>
+        <button id="ed-admin" title="Set the admin key to save">Admin</button>
+        <button id="ed-export">Export</button>
+        <button id="ed-import">Import</button>
+        <button id="ed-exit">Exit</button>
+      </span>
+      <input id="ed-file" type="file" accept="application/json,.json" hidden />
+      <span id="ed-status" class="ed-status"></span>
+    </div>
+
+    <!-- Tile picker -->
+    <div id="tile-picker" class="overlay hidden">
+      <div class="picker-box">
+        <header>
+          <h2>Tiles</h2>
+          <select id="tile-set" title="Tileset"></select>
+          <input id="tile-search" type="search" placeholder="Search tiles…" autocomplete="off" />
+          <button id="tile-layout" title="Toggle sheet layout">▦ Sheet view</button>
+          <span id="tile-count" class="tile-count"></span>
+          <span id="tile-hover" class="tile-hover"></span>
+          <button id="tile-bg" title="Tile background: checkered or black"></button>
+          <button id="picker-close">✕</button>
+        </header>
+        <div id="tile-grid" class="tile-grid"></div>
+      </div>
+    </div>
+
+    <!-- Landing / connect screen (Minecraft-style direct connect) -->
+    <div id="landing" class="screen">
+      <div class="landing-scrim"></div>
+      <div class="landing-inner">
+        <div class="brand">
+          <div class="brand-mark"><img class="brand-logo" src="./favicon.svg" alt="" />C20</div>
+          <h1 class="brand-title">Crypts &amp; Crypto</h1>
+          <p class="brand-tag">Roll for Decryption.</p>
+        </div>
+        <div class="connect-card">
+          <label class="field">
+            <span class="field-label">Server</span>
+            <input id="landing-server" type="text" autocomplete="off" spellcheck="false" placeholder="host or host:port (default port 9000)" />
+          </label>
+          <label class="field">
+            <span class="field-label">Adventurer name</span>
+            <input id="landing-name" type="text" maxlength="24" autocomplete="off" spellcheck="false" placeholder="Wanderer" />
+          </label>
+          <button id="landing-connect" class="primary big">Join Server</button>
+          <p id="landing-status" class="landing-status"></p>
+        </div>
+        <div class="landing-actions">
+          <button id="landing-creator">Character</button>
+          <button id="landing-help">Controls</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pause menu (the world keeps running behind it) -->
+    <div id="menu" class="overlay hidden">
+      <div class="menu-box">
+        <h2>Paused</h2>
+        <button id="menu-resume" class="primary">Resume</button>
+        <button id="menu-creator">Character</button>
+        <button id="menu-leave">Return to Guild Hall</button>
+        <button id="menu-logout" class="danger">Leave Server</button>
+      </div>
+    </div>
+
+    <!-- Help / controls (toggled with ?) -->
+    <div id="help" class="overlay hidden">
+      <div class="help-box">
+        <header>
+          <h2>Controls</h2>
+          <button id="help-close">✕</button>
+        </header>
+        <div class="help-cols">
+          <section>
+            <h3>Keys</h3>
+            <dl>
+              <dt><kbd>WASD</kbd> / <kbd>↑↓←→</kbd></dt><dd>move</dd>
+              <dt><kbd>T</kbd></dt><dd>chat</dd>
+              <dt><kbd>Enter</kbd></dt><dd>use what is next to you (shown in the hint when there is something): a hall display starts a campaign, the reception lists them, a chair seats you (Enter again stands up)</dd>
+              <dt>scroll</dt><dd>zoom the room</dd>
+              <dt>hold <kbd>R</kbd></dt><dd>pose — idle / sit / read</dd>
+              <dt>hold <kbd>E</kbd> / <kbd>F</kbd></dt><dd>action — punch / throw / gift / lift / pick-up</dd>
+              <dt><kbd>Esc</kbd></dt><dd>pause menu</dd>
+              <dt><kbd>Alt</kbd>+<kbd>M</kbd></dt><dd>map editor</dd>
+              <dt><kbd>?</kbd></dt><dd>this help</dd>
+            </dl>
+          </section>
+          <section>
+            <h3>At the table</h3>
+            <dl>
+              <dt><code>/games</code></dt><dd>list campaigns in the hall</dd>
+              <dt><code>/create NAME</code></dt><dd>start a campaign and commit its first encrypted die</dd>
+              <dt><code>/join NAME</code></dt><dd>join a campaign by name</dd>
+              <dt><code>/leave</code></dt><dd>back to the Guild Hall</dd>
+              <dt><code>/who</code></dt><dd>list the players at your table</dd>
+              <dt><code>/player UID</code></dt><dd>look up a player</dd>
+              <dt><code>/w PLAYER TEXT</code></dt><dd>whisper, encrypted to that player</dd>
+              <dt><code>/note TEXT</code></dt><dd>your private note for this campaign</dd>
+              <dt><code>/roll</code></dt><dd>contribute an encrypted die to the roll</dd>
+              <dt><code>/requests</code></dt><dd>DM: list pending rolls</dd>
+              <dt><code>/resolve [ID]</code></dt><dd>DM: decrypt &amp; publish (blank = all)</dd>
+              <dt><code>/afk on|off</code></dt><dd>DM: delegate decryption; returning requires the saved token</dd>
+              <dt><code>/logout</code></dt><dd>leave the server</dd>
+            </dl>
+          </section>
+        </div>
+        <p class="menu-hint"><kbd>?</kbd> or <kbd>Esc</kbd> to close</p>
+      </div>
+    </div>
+
+    <!-- Character creator -->
+    <div id="creator" class="overlay hidden">
+      <div class="creator-box">
+        <header>
+          <h1>Character Creator</h1>
+          <button id="cc-back" class="primary">◀ Back</button>
+        </header>
+
+        <div class="cc-main">
+          <section class="cc-stage">
+            <div class="preview-frame">
+              <div id="cc-frame-counter" class="frame-counter cc-debug-only">1 / 1</div>
+              <canvas id="cc-preview"></canvas>
+            </div>
+            <div class="stage-controls">
+              <div id="cc-dir" class="dir-buttons"></div>
+              <div class="row cc-debug-only">
+                <select id="cc-anim" title="Animation"></select>
+                <button id="cc-play" title="Play / pause">⏸</button>
+                <button id="cc-zoom-out" title="Zoom out">−</button>
+                <button id="cc-zoom-in" title="Zoom in">+</button>
+              </div>
+              <div class="row speed-row cc-debug-only">
+                <label for="cc-speed">Speed</label>
+                <input id="cc-speed" type="range" min="0.1" max="3" step="0.1" value="1" />
+                <span id="cc-speed-val">1.0×</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel">
+            <label class="cc-name field">
+              <span class="field-label">Name</span>
+              <input id="cc-name" type="text" maxlength="24" autocomplete="off" spellcheck="false" placeholder="Wanderer" />
+            </label>
+            <div id="cc-controls" class="controls"></div>
+            <div class="panel-actions">
+              <button id="cc-randomize">🎲 Randomize</button>
+              <button id="cc-reset">↺ Reset</button>
+            </div>
+            <div class="panel-actions cc-debug-only">
+              <button id="cc-export-frame" class="primary">Download frame</button>
+              <button id="cc-export-sheet" class="primary">Download spritesheet</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene transition veil -->
+    <div id="veil"></div>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

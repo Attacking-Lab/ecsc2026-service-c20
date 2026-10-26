@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="d20">
+  <title>C20: Crypts &amp; Crypto</title>
+  <!-- An icosahedron seen down a face normal: hexagonal silhouette, the front
+       face as the central triangle, its corners spoked out to the rim. The
+       remaining face edges are left off so the shape still reads at 16px. -->
+  <polygon points="50,6 88.1,28 88.1,72 50,94 11.9,72 11.9,28"
+           fill="#1a130d" stroke="#e8b64a" stroke-width="7" stroke-linejoin="round" />
+  <g fill="none" stroke="#e8b64a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <polygon points="73.55,36.41 26.45,36.41 50,77.19" />
+    <path d="M88.1 28 73.55 36.41 M11.9 28 26.45 36.41 M50 94 50 77.19" />
+  </g>
+</svg>

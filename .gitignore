@@ -1,0 +1,18 @@
+*.pdf
+__pycache__/
+.vscode/
+*.out
+notest.txt
+*.sage*
+target/
+Cargo.lock
+checker/mongo_data/
+meta/vendor_full
+audit/*
+tools/*
+tmp/*
+BFV*.md
+.env
+
+# Generated from meta/service by meta/build.sh
+/service/

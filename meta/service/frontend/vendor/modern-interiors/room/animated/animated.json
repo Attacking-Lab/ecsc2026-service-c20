@@ -1,0 +1,47 @@
+{
+ "tile": 16,
+ "sheets": {
+  "animated_Christmas_jack_in_the_box.png": {
+   "fw": 16,
+   "fh": 32,
+   "frames": 12,
+   "fps": 5,
+   "src": "gif"
+  },
+  "animated_candle_wax.png": {
+   "fw": 16,
+   "fh": 32,
+   "frames": 3,
+   "fps": 10,
+   "src": "gif"
+  },
+  "animated_cat.png": {
+   "fw": 48,
+   "fh": 16,
+   "frames": 12,
+   "fps": 10,
+   "src": "gif"
+  },
+  "animated_cauldron.png": {
+   "fw": 32,
+   "fh": 32,
+   "frames": 12,
+   "fps": 8,
+   "src": "guess"
+  },
+  "animated_chimney.png": {
+   "fw": 32,
+   "fh": 48,
+   "frames": 3,
+   "fps": 10,
+   "src": "gif"
+  },
+  "animated_chimney_red.png": {
+   "fw": 32,
+   "fh": 48,
+   "frames": 3,
+   "fps": 10,
+   "src": "gif"
+  }
+ }
+}

@@ -1,0 +1,101 @@
+unexport VIRTUAL_ENV
+
+root := justfile_directory() / ".."
+
+[private]
+default:
+    @just --list
+
+# ── dev ───────────────────────────────────────────────────────────────────────
+
+# Install/update the virtualenv from the lockfile
+[group('dev')]
+sync:
+    uv sync
+
+# Format Python source files
+[group('dev')]
+format:
+    uv run ruff format src
+
+# Lint and apply safe fixes
+[group('dev')]
+lint:
+    uv run ruff check --fix src
+
+# Static type checking (ty)
+[group('dev')]
+typecheck:
+    uv run ty check src
+
+# Static type checking (mypy)
+[group('dev')]
+mypy:
+    uv run mypy
+
+# Run all dev checks with fixes applied
+[group('dev')]
+check: format lint typecheck mypy test-unit
+
+# ── test ──────────────────────────────────────────────────────────────────────
+
+# Run unit tests
+[group('test')]
+test-unit *args:
+    uv run pytest {{args}}
+
+# Run enochecker integration tests against a running service + checker stack
+[group('test')]
+test-integration *args:
+    #!/usr/bin/env sh
+    export ENOCHECKER_SERVICE_ADDRESS=$(docker network inspect c20 | jq -r '.[].IPAM.Config[].Gateway')
+    export ENOCHECKER_SERVICE_PORT=${SERVICE_PORT:-9000}
+    export ENOCHECKER_CHECKER_ADDRESS=$(docker network inspect c20-checker | jq -r '.[].IPAM.Config[].Gateway')
+    export ENOCHECKER_CHECKER_PORT=${CHECKER_PORT:-8000}
+    enochecker_test {{args}}
+
+# Run unit + integration tests (requires compose stack to be running)
+[group('test')]
+test *args: test-unit (test-integration args)
+
+# Read-only checks + unit tests, as run in CI
+[group('test')]
+ci:
+    uv run ruff format --check src
+    uv run ruff check src
+    uv run ty check src
+    uv run mypy
+    just test-unit
+
+# Build everything, bring up compose, run integration tests, tear down
+[group('test')]
+test-full *args:
+    {{root}}/meta/build_zkp_lib.sh
+    {{root}}/meta/build.sh
+    docker compose -f {{root}}/service/compose.yaml up --build -d
+    docker compose -f {{justfile_directory()}}/compose.yaml up --build -d
+    just test-integration {{args}}
+    docker compose -f {{justfile_directory()}}/compose.yaml down
+    docker compose -f {{root}}/service/compose.yaml down
+
+# ── run ───────────────────────────────────────────────────────────────────────
+
+# Simulate checker runs interactively with enochecker_cli
+[group('run')]
+sim *args:
+    #!/usr/bin/env sh
+    export ENOCHECKER_SERVICE_ADDRESS=$(docker network inspect c20 | jq -r '.[].IPAM.Config[].Gateway')
+    export ENOCHECKER_SERVICE_PORT=${SERVICE_PORT:-9000}
+    export ENOCHECKER_CHECKER_ADDRESS=$(docker network inspect c20-checker | jq -r '.[].IPAM.Config[].Gateway')
+    export ENOCHECKER_CHECKER_PORT=${CHECKER_PORT:-8000}
+    enochecker_cli {{args}}
+
+# Start the checker locally against a running mongo container
+[group('run')]
+local:
+    #!/usr/bin/env sh
+    docker compose up -d c20-mongo
+    cd src
+    MONGO_ENABLED=1 MONGO_HOST=localhost MONGO_PORT=1814 \
+        MONGO_USER=c20_checker MONGO_PASSWORD=c20_checker \
+        uv run gunicorn -c gunicorn.conf.py checker:app()

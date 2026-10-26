@@ -1,0 +1,50 @@
+default:
+    @just --list
+
+# Install/update the virtualenv from the lockfile
+sync:
+    uv sync
+
+# Format sources
+format:
+    uv run ruff format src tools
+
+# Lint (and autofix)
+lint:
+    uv run ruff check --fix src tools
+
+# Browser-side crypto tests (node)
+test-crypto:
+    node --test "tests/*.test.mjs"
+
+# ...plus the round trip through the service's own libraries (pulls in sealy)
+test-crypto-service: test-crypto
+    uv run --no-project --with sealy==0.3.0 python tools/verify_seal_interop.py
+    node --test "tests/seal_service_reply.test.mjs"
+
+# Regenerate the fixtures with the service's libraries
+crypto-fixtures:
+    uv run --no-project --with sealy==0.3.0 python tools/gen_seal_fixtures.py
+
+# Re-vendor the animated object sheets from the itch.io download (not in the repo)
+vendor-animated *args:
+    uv run --no-project --with pillow --with numpy python tools/gen_animated_tiles.py {{args}}
+
+# Rebuild the vendored zkp_lib WebAssembly (docker + emscripten)
+vendor-zkp:
+    ../../meta/build_zkp_wasm.sh
+
+# Refresh the browser libraries vendored in web/vendor from package.json
+vendor-js:
+    npm install --silent
+    cp node_modules/node-seal/dist/seal_throws.js node_modules/node-seal/dist/seal_throws.wasm web/vendor/node-seal/
+    cp node_modules/node-seal/dist/index_throws.js web/vendor/node-seal/index.js
+    cp node_modules/node-seal/LICENSE web/vendor/node-seal/
+    cp node_modules/fzstd/esm/index.mjs web/vendor/fzstd/fzstd.js
+    cp node_modules/fzstd/LICENSE web/vendor/fzstd/
+
+# Read-only checks
+ci:
+    uv run ruff format --check src tools
+    uv run ruff check src tools
+    just test-crypto

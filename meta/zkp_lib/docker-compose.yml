@@ -1,0 +1,15 @@
+services:
+  builder:
+    build:
+      context: .
+    volumes:
+      - .:/output
+    command: ["cp", "/build/zkp_lib.so", "/output/zkp_lib.so"]
+
+  wasm-builder:
+    build:
+      context: .
+      dockerfile: Dockerfile.wasm
+    volumes:
+      - .:/output
+    command: ["cp", "/build/zkp_lib.mjs", "/build/zkp_lib.wasm", "/output/"]

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+*.egg-info/
+room_override.json
+node_modules/
+tests/seal_interop_artifacts.json
+tests/seal_service_reply.json
+tests/zkp_interop_artifacts.json
